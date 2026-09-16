@@ -3,9 +3,6 @@ type: integration
 title: Reference Documentation Integration
 description: Defines the boundary between semantic SDK links, externally operated API reference sites, and OpenAPI inputs that Mintlify turns into LangSmith endpoint documentation at deployment. Covers refresh automation and checks designed for generated routes.
 tags: [api-reference, openapi, cross-references, mintlify, langsmith]
-verified:
-  - by: openwiki/0.4.3
-    at: 2026-09-15T08:21:56.110Z
 sources:
   - id: openwiki-source-759309714d08144a07e1b2e0
     resource: repo://.github/ISSUE_TEMPLATE/04-reference-docs.yml
@@ -37,7 +34,10 @@ sources:
     resource: repo://tests/unit_tests/test_check_cross_refs.py
   - id: openwiki-source-38d325b9c51f3c8dfd528917
     resource: repo://tests/unit_tests/test_filter_mint_broken_links.py
-generated: { by: "openwiki/0.4.3", at: "2026-09-15T08:21:56.110Z" }
+generated: { by: "openwiki/0.4.3", at: "2026-09-16T08:21:31.094Z" }
+verified:
+  - by: openwiki/0.4.3
+    at: 2026-09-16T08:21:31.094Z
 ---
 
 ## Boundary and ownership
@@ -159,5 +159,6 @@ Change this repository when the issue is an authored semantic marker, a scoped m
 - [Source map](/openwiki/architecture/source-map.md) — documentation-source and navigation ownership.
 - [Preprocessing](/openwiki/concepts/preprocessing.md) — the build-time transformation model.
 - [GitHub Actions](/openwiki/integrations/github-actions.md) — scheduled automation conventions.
+- [Mintlify integration](/openwiki/integrations/mintlify.md) — deployment configuration and generated-route boundaries.
 - [Cross-reference operations](/openwiki/operations/cross-references.md) — diagnosing and maintaining semantic links.
 - [Test overview](/openwiki/testing/test-overview.md) — test-suite organization.

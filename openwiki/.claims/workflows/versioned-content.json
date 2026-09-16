@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:18658cbdbc44c54ccc34f3731bed898150653188511977627d18f6ee472064bc",
+  "pageVersion": "sha256:3e9e90b516a80ec04009999be1801e5a6e9fb1e21c6b708226ac05c4a2d9cfa8",
   "claims": [
     {
       "id": "claim_7056e7803a2d4e53acbb8ee96db81024",
@@ -165,16 +165,8 @@
       "statement": "Managed Deep Agents navigation has parallel Python and JavaScript route entries in separate language dropdowns, while `docs.json` maps unprefixed and legacy Managed Deep Agents URLs to Python destinations.",
       "evidence": [
         {
-          "resource": "repo://src/docs.json#L2676-L2817",
-          "version": "repo-lines-v1:sha256:551ec8d1c2b0410a53473de6032f4e4221f6f28c3cd6c6b6bac51181e6201301:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQyLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJlYjAxNTczYWQ3MGMxZGYxOWI5MWZkODZjYjcyMjUxNzZmYWUwNGVmYmJhMzYzZDY5OTgxMWMxNTNkYzFiOTQ5IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3YzcyNjdkMDY3M2UzOGM2MDBmMTRhMzc0Mzk2NzBlZjUzZDRmNjk0ZjliYzBhOGI5MDhmOTI3MjI3MjJiYWUyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI4ZjIyMzYwOTE0MGViNTZiZDYzZTNiZjI4OTM0MTIyYjk0MjdjZjVkMTFkNDU3MmNkYzViNWU1YTI3OTY5NzlkIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4Mzk0ZDE0MGRiMTNmMTlkYzgyOWEyNGQyZjdmMjIzN2VhOTExNGExMzg0MWUyMmI1MjFiZjE0NDgyYzVlY2I5In0"
-        },
-        {
-          "resource": "repo://src/docs.json#L297-L345",
-          "version": "repo-lines-v1:sha256:cda61a0a117453a652739ffd71abd3d7b2342ba75fc37c985fd2c5bd7a54d956:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNjE2NzU0NTYzMDVjNmE2YjI0ZjZhNGE0ZGMwMWQ4MDNjODI5MDZjZTRhOWU0NGYyMTYyYTI2NDgzZmI5NTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVmZjQzZDhmMWRhNzAxZGU2M2VhYWI4YmRhMWVmNzBlMzM3YWVjYTg0YjkwYzNkYTA2ODllOTY1NGIwYTI3YzgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ2ZmJmYjdmOGM2MWE0ZGM0NGVmYjkzOThlZjM5Nzg2MzY0YWQ4MDNhZjA0MmY2NGJiOTdmZDY5ZGQ5YjlhNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg5MjNiYTJlNTU4MGFkOTJhMzdkOGNhMTNhZmY2M2JlYWE5NDY0ZTVmY2NiYTFjMzQyNjYyM2NmYWNiYWRhZWEifQ"
-        },
-        {
-          "resource": "repo://src/docs.json#L877-L924",
-          "version": "repo-lines-v1:sha256:49d52be5bca401d0ed82e37a46aa6214b674813fbd5942eebb61eb5127b808b3:eyJzZWxlY3RlZExpbmVDb3VudCI6NDgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNjE2NzU0NTYzMDVjNmE2YjI0ZjZhNGE0ZGMwMWQ4MDNjODI5MDZjZTRhOWU0NGYyMTYyYTI2NDgzZmI5NTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhMGE2MDNlMWI5MmZjNTE2MjQ0ZTljYjc5M2Y2NjVmYzJhZDc4Y2Y3NDE0NjZiOTkwZjg5MDhjY2JhMmY0ZmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ2ZmJmYjdmOGM2MWE0ZGM0NGVmYjkzOThlZjM5Nzg2MzY0YWQ4MDNhZjA0MmY2NGJiOTdmZDY5ZGQ5YjlhNjQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI0ZDYwMDhlZTgxZjBkMWEwYjlmYTkzMjViMDE0NGI2MGRlZjFiNTBlMjVjOTBlMzk0ZGNjY2I5NjFkNDExNWUifQ"
+          "resource": "repo://src/docs.json",
+          "version": "repo-file-v1:sha256:485fe3613ad67e71629f31ce5130522093fd715efae555d1b21ad9c7e7530fc4"
         }
       ]
     },
@@ -187,10 +179,38 @@
           "version": "repo-lines-v1:sha256:949e4203139c8a0525ca36ea161a9e5ecc45b767ad72829f8d3d2624562a9d96:eyJzZWxlY3RlZExpbmVDb3VudCI6NjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3YzVhYjc5M2VjZTcyMTM3MjRiODY4N2NmOTI5ZjBmYWMyZjBkYTA1YjlmZjVlODM0YWMyNzQzZWQ3MTNkYjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2NWVmYjcwNTkxYjM3NDlkZGZiZjI1N2VlNDEwNmNiOWRiZGUxMmM0YTg2YTYwYTZlOTBjNmVkMzdlNjdiZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxZjE1NmU0ZDE1OGJlNGRkMzExOTNjZGRiZWQ2NGFhOTExYjEzOTUxOWZiMTI5YWEzMjFmZmQ4NzQ2OTdiNmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBlNDk4ZDg2ODA5MTc5NTA0YWNjOWUwNjdlMzY2MDY1ZDU3YzZmMmJjNzA5ZDA2ZWI5NGE4MTRkOTEwZTU4NzkifQ"
         }
       ]
+    },
+    {
+      "id": "claim_8b1ca44e64ff4b89af8393610d2bb085",
+      "statement": "A Managed Deep Agents file must be a direct `src/langsmith` child with a `managed-deep-agents` prefix to receive special handling; full-build discovery selects only matching `.mdx` files, while ordinary LangSmith output excludes classified pages.",
+      "evidence": [
+        {
+          "resource": "repo://pipeline/core/builder.py#L493-L526",
+          "version": "repo-lines-v1:sha256:71ead090bcb4f97f8fe1b2d2927eb2a878f4099b06a1a7b804377917efc7b537:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOWUxMjA3MmZkNjFjZmU5YzJhOGMyMjUwMGY3YThkODUyY2UwY2UzMmZlNWY3NjQ1NDQ5ODhiMWI4MjE5MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFiM2NlZmU4NzkxOGFiZmNhMTUyNGRjZWM0OGI1NjAzMDMwNjFjNjc5MDAxMDIyOGY1Yzg2OGYwZjRjZDcxNGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdkY2JkYzc2NzlhY2YwZjI0ZjMxYzg2NjY1MDQ3OGEyNjQwZmUxNzkwYTQzYTAxN2IxMjBiN2I4ZDY5ZDRjYzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5ZGQ3MDdlZTRiODZhMmM3YWU2NWE3NTFkNzkyMmFlYTdlNmExN2Y5N2I2MjQwMTVmZmFiZmQyMDMyNzNmYTYifQ"
+        },
+        {
+          "resource": "repo://pipeline/core/builder.py#L909-L928",
+          "version": "repo-lines-v1:sha256:91fb3c10d271a0c0e08540896fd61bcbaf694819d489d9809573a302fa9f4c85:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3YzJiOTQ4NDM2Y2Q1NDQxNzhhZDA0Y2QyYTgxMGZhNmY3NjgyMmZhNzZmNWY4YzkzZjZhNDVkMDc3ZWUxZDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJhYWU4YTBjYTc2Zjk4ZjdiN2RjNzk4NDk1MWQ2M2U1N2RiM2M2NDU1NzljYTUxYmFkNmE1MzlkNjE0ZWRiYmUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMzMjg5Y2VkYjM1MjAyOTMxMjYxOWVlNTUwMjRkNGFlNDBjMGNhMDUyNjAzZDdhZjZmN2EyZGU1ZTI0N2YxODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNjMDkyNmJiNzU0ZTAzMmM3NGE5ZGQxNGQzYmMzNzQ5OTIxYTY0YjczOTM1YjY0NTUyNmZhZTU2ODQ1NWE2YTEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ffacd722881a4f20ad0401f5ae0aedf2",
+      "statement": "Navigation and redirects are configured independently in `src/docs.json`: page entries use extensionless route paths, and redirects use site paths with a source and destination.",
+      "evidence": [
+        {
+          "resource": "repo://.agents/skills/add-docs-page/SKILL.md#L45-L99",
+          "version": "repo-lines-v1:sha256:bc94fb45838d1dbf819b4d9732dc5dd471fddc1bfc133d935cf04916510c250d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5NmM5YzA5MzAxNjBmOTIyY2EzZWMwZTc1M2Q1MTBhZDhjZGU2NGMwYWVhOTBlYWUwMGQ3ZGI3NWI2YjY0NzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEyMjhhNTg0MmQwY2MzZTdhNzA0MzhkYTM0OWNmMzY2MzhmYTQ0ZmQyYTBiNGRiNTJjMjg2YTIwZGYzNjk0NmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjExMzc2MzM5MDk0ZGMxYmI0MDYwMzkxOGM1ZGRiMDQzNDVlM2NhNzA3NWM0NjliY2YzNDkyYjQwNzkxMmVhNjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRlOTE0Y2I2YmFmNWY2MDQ0MDBkN2JkMjdhMmYxYmM2YmUwMWY5OWI4NmY1MGZmMDIxMjFlOTU5OWZiMWZjNzYifQ"
+        },
+        {
+          "resource": "repo://src/docs.json",
+          "version": "repo-file-v1:sha256:485fe3613ad67e71629f31ce5130522093fd715efae555d1b21ad9c7e7530fc4"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.4.3",
-    "at": "2026-09-15T08:21:56.110Z"
+    "at": "2026-09-16T08:21:31.094Z"
   }
 }

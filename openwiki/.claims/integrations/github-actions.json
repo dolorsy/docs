@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:0845562c4acf99c00e29cd7027901d9e3bdb5eac265b745ee513a9f1380715f7",
+  "pageVersion": "sha256:41c9372c65d9b45c2602592c5b7f315d042b7e7858cf2342b7cc0102787a4e5b",
   "claims": [
     {
       "id": "claim_99053526ff9747f0ad0e4b02995da8c7",
@@ -265,10 +265,80 @@
           "version": "repo-lines-v1:sha256:53f7d43f700d1d34da8dd6ad8f364fd572b12d03418d7ee2ab159eabbdde6125:eyJzZWxlY3RlZExpbmVDb3VudCI6OTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU2Y2ViZjIzNzcyODk0ZDVlMmVkNTJhNDk2NjQ3OTc3N2YxNWMzYTE3NmY2OTU4M2Q2Y2QxY2QyZjc5ZDllOGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2MjMzYjNmZmVhMzJhMjNkZjUzMDY1MzQzNDhmMmRlZTc3NmE1YTZmNzRmYjUzMzE3NWRkYzUzOWE4ZmU0NjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjkxYjgwMzE4MTgxMDliNjY4ODhmNTg1NmFkNTNjYTA2MTlmNGM1NDkyZTQ4NDc3MWZhY2MwMDc0NzE3N2Q4ZDYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNkNDEzNDBjYzIzOWExNTljZTliNjAyMmU5ZjYzMjI4MzJlMmVhZDc2Y2FlOWU0NzU0ZDIxMGViOGZiNmQ1ZTgifQ"
         }
       ]
+    },
+    {
+      "id": "claim_f26dfccaaf754acb8ce00402fb815b86",
+      "statement": "The changed-document version-claim workflow runs only on relevant pull requests, finds changed `src/**/*.mdx` files from the merge base, skips checker setup when none changed, and otherwise runs `check_version_claims.py --files` with read-only contents permission.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/check-version-claims.yml#L1-L58",
+          "version": "repo-lines-v1:sha256:9bd406ff219aac5f2638c5e0cf91a06088a8c14d2f2ad2b3371329d86994ab35:eyJzZWxlY3RlZExpbmVDb3VudCI6NTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1MmQ3MTExMDNkNTBhNDM3ODMwYzZmYmNkMDRmYjRiYWI0OWEwZjgyZjZkMjZkMWM3OTFjNmU4NDg4ZGQwOTAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiZWY4NDRmYzQxMzIwOWIyMWQ2MDFjMWEwNDg1NGNmNmY4ODdjYzc0MzhkMmQ1YjYxMjAwMDY0ZDZhMDdkYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8d2a68a3053648b98aacb4a6e27767f8",
+      "statement": "The version-claim checker resolves package specifiers to PyPI or npm from syntax and language context, fails only versions never published, and reports registry lookup failures as unresolved rather than failures.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_version_claims.py#L131-L155",
+          "version": "repo-lines-v1:sha256:9356ef136e6051037a1ea35db701c6ac62bf360e598f44e8d4ef99606900dff3:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3NTQ4ODI2ZDZiZGE5MWY0NmE3MTAzZGRmOGVkMTE4MDgwZDA3NzdmMzc1OGFiMmU5YTBhOGY5MDlmMDI3MmYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg0MjExMzliZjRhYjc1N2I3NWFiNjVjZjM0ODllMmExZDJjOTU1YjU0MWJlOGM3MmQ1MzVlZTQyODA3YzhkOGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ3MDE0OWUwNjlhZDY3ZWNjZjQ3MzY0NmZmMWM3NTAwNTBkMzI5ZDExMDAxOGRjNTc2Njg3OGVhZmExZDYwN2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg1ZThkNjEwMjk3NmNmNGVkNWQ4ZTBiMmEwODBhZGZmY2JkMmI1MmQzNjg0NDRjYzZhMGU4NDg2YTEwOTM3N2UifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L206-L242",
+          "version": "repo-lines-v1:sha256:0af107033b63d946f479d9688f0b8e5c8da2f4630c9df0b20733580cdd48263b:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImJlNDcyNDkzNjJlZTFjMzIwOWI1ZWQzMmUwZTFhNTIwMzgyMjI4OTZiNTEwZTM4YTU1MDJiMDhiODA4Y2FmYzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmNGNlZWQ4MWUyYTZmZTU1ODQ0OWI5ZTQyYjcyMmFlZjRlNzc0ZDBkMTE2NjQzNTcxZWQ5ZWNmZTM5ZmE0ZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc0Y2JhOWFmYzAyMWM5YmNhYjliZGRhYWFmNjJkOTgyMmIyMmQxZWY4YWQyMzRlNzMyODk4ZGNkNzYyYmYyYjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5YTI4NTJkYWUyN2FmOTcwYTVkMGZhMjAzZDNmYmJkMTc2ZDg4ZGRjYzQ3MTVjMTQyODMzN2I5NTMxODBhNjIifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L303-L332",
+          "version": "repo-lines-v1:sha256:b6ac8abeea28d29d46510d72b3212a36fde5f946277e46d5bbf84f404632d461:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyZWMwMDM1M2RjZDk3ZTk0NTg2ZDFmMjMxNDVlZGUxMDMyNzU4NTZlNTgxOTVmOTk3NTRmZTVkZmQ3MmZhODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE2MjMzYjNmZmVhMzJhMjNkZjUzMDY1MzQzNDhmMmRlZTc3NmE1YTZmNzRmYjUzMzE3NWRkYzUzOWE4ZmU0NjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImViZDVhMGM5MDYzNDg4Zjc2OGQ2MmZhMjA4MDA2ZjQ3ZWI4MmYwY2RmOWZiZmJkOTcyYTI2NmM2ZDhkNmViY2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNkNDEzNDBjYzIzOWExNTljZTliNjAyMmU5ZjYzMjI4MzJlMmVhZDc2Y2FlOWU0NzU0ZDIxMGViOGZiNmQ1ZTgifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_fd93644c23764c698d8d3ced9e087b88",
+      "statement": "The weekly external-version workflow writes only changes from `check_external_versions.py --write`, reuses an open `chore/refresh-external-versions` PR, and exits without a commit when requirements are in sync.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/refresh-external-versions.yml#L4-L110",
+          "version": "repo-lines-v1:sha256:24822d257f43f275ac6c0f83ad1068cd0cc9335ca2fff90902168d03a7221ad9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTA3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJlOTZkYzQ4MTQ5ZjVhODNkMWVkNmRiYjM5YmJjN2UyYjkwMmFhM2QzNGQ2YmQ1YWU0YjI5MWI2OGRmMGNhNzlhIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI0NTc3Mjk2MzM2YTZlODY0NjFjNTE5ZTUzNDk1N2JkNDkwNWQ5NDk1NmU0MjRlOTdkNzhiYjhmYzU0Mzk3Y2I0IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJjYzY3NGQyNjIzZGE5NjgwY2YzYzIzMTdlNjM0OGU0MmVmYzcyODQzYzE1NjNhMzhhNGFiODZjOGY1NTBjOThmIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4ODUxMWQ5ZmIwZTc4ZTJmNDFhMDI3YmU0MmQ5ZDhjMTc5ZWQwOTE2MzljODNlNzE5NzNlOTA0OWNlM2E2ZDE4In0"
+        }
+      ]
+    },
+    {
+      "id": "claim_a2f61aa071d44c9798dd83efd6350edb",
+      "statement": "External-version synchronization rewrites only a uniquely captured version; unavailable upstream sources are reported without failing write mode, and surrounding prose still requires review.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_external_versions.py#L176-L187",
+          "version": "repo-lines-v1:sha256:d3ad076e9a72d9b611f4b0f8de4d608aa58080af1e43bd1f15f11b56d59cd9a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NTlhMTFiNmM5MGRiZmVjMmEzOWFkYjc4NDgyZTQ5Y2UxNDRhZmVjMTY1YmU5NTNkMWM3MzU3ZTM4NGU5OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyMjVjMzI5YWVlNjQ5NGJmZjhiYzczNjQ3NjU4Njc5M2MwMGEwNjEzM2QyYzc2Y2FjMDExMDQzZDA0NmZiZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZTQ0NWM0NDEwNGQ3NzA4N2I5NjM1MmIyYTYyOGVmZWE0Zjg2NmUyMjBkZGJjOGIxNTQyMTI1ZWUyNWFlN2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0OGQ3NDgzZDA2MGYxNzIyZTI0NTM2ODg4MzM0MjU2YjU0OTBlOGJiZTg2OTgyMDY3NmNhOWVhZjM1MDljYzkifQ"
+        },
+        {
+          "resource": "repo://scripts/check_external_versions.py#L231-L269",
+          "version": "repo-lines-v1:sha256:8d6eace42c83a76a1807e6bcdd570e8b8693018babe4ba7d7148c01ff4c464c1:eyJzZWxlY3RlZExpbmVDb3VudCI6MzksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5NjIwYWU0NDU3NjE1MWFmZjNlNDVjZmJhMjhkMjVhZmIyYzRjNzBhYmI5OTU2MzAyYjdhZTViNWNlMDYxNzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNDBiYTNiNGM5MDRkMTlhOTYwMGJiZGI4ZDRmZmMyZmU3ODg3YjliYmNmZmI0YjM5MDEzNTNiM2MwZDA1ZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjYxNGYxNDM4N2QwZjVkZjQzZTQ4NjM3NDZhZTJiOTkyYzY1ODcwYjY3YmJkMTk0YWJhZDFlMjI5MTE2MjIwZWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNkNDEzNDBjYzIzOWExNTljZTliNjAyMmU5ZjYzMjI4MzJlMmVhZDc2Y2FlOWU0NzU0ZDIxMGViOGZiNmQ1ZTgifQ"
+        },
+        {
+          "resource": "repo://scripts/data/external_versions.yaml#L1-L41",
+          "version": "repo-lines-v1:sha256:5090deab80e9324397ad8aec3f9f575a31bcecc97aaf2747bd19d205d5949dca:eyJzZWxlY3RlZExpbmVDb3VudCI6NDEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3NDI2NzRjMDI1MzY4ODU1ZTEwZmNkZjJkMmYzNTk0ZDFjZTBmZjlkMzAwMmRiZTBlZjgxMThhYzI5YTIzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcwZDE4N2RiZjc5YzU4YTFjYTMwODAzNmQxNTdiYmIxNTdmZGRjMjZhYjUwODA2MTA5NTMwNjM4ZGM4ZDRhMTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_13a3ed8d6d624c898eb7f699b239bf32",
+      "statement": "The weekly external-version workflow separately runs a read-only advisory full-document sweep for unpublished package versions and reports it without failing the schedule.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/refresh-external-versions.yml#L113-L142",
+          "version": "repo-lines-v1:sha256:78e63b277e163bca785e0bc170704191778c44293624ce1bcf353b8fb1a6ac52:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2MjI4MDYzZjdjOGE5N2MzMzBlMzJiMDMyOWUwZjM1YWRhZTBiZDQ1OWUxZGIwY2I0N2NiMGMzNGIwM2QzYjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3MmQzMWYyYTcxN2U5OTZhYTdlZWMwM2YwNzg0NTVmMjk4YmQwYTUxMjZjYTZiZjc2NTQ4MDU1ZDE4MzgyM2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5YzJkNTg0MTA4YzdlNzFkYTRiNGE3MDFiNTBmYTNhZDY1N2E5ZGQ0ZWYwMGY5MjEzZjMyZWZlMzY2MjI2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L319-L329",
+          "version": "repo-lines-v1:sha256:43d4799779406f538a02654e6057df7e7230bb5a484c4282f7a48fadcee55e26:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFhNDBiNmUyNTljZWI5NTU1N2RkNmViYTVlMTlmYmQyNWE0NmI0OWZkYmY1MTFlMGJhMDRhMGMzYjM0MzFlZjQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3OWIwZjhmZWMwYzliYmFhMzk0ZWQ0YjQ4OWYyYzU3MDYxYTVlOGIwMDVhOGYxMWI1ZGM1MGJjZjI0YWExYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFmNzc1NDM1MDZjY2MyMjY5NDZhOTQ1NTQwYjFlMmQyMjNlM2Q3ODdlMTRmMzBlZDk4MzlhNjRlMjUyODdhODIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzY2ZiYmRkNmI1OTVmMTYzZGQwNGJmZjM0MWU0MTI2NmJmZTVjYTYzZDc3M2RkNDJiMDJjNGYwOTUwMGVhZDEifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.4.3",
-    "at": "2026-09-15T08:21:56.110Z"
+    "at": "2026-09-16T08:21:31.094Z"
   }
 }

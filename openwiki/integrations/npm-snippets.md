@@ -22,15 +22,15 @@ sources:
     resource: repo://src/oss/langchain/frontend/integrations/copilotkit.mdx
   - id: openwiki-source-24e5f74f0f40e9bfd381871f
     resource: repo://tests/unit_tests/test_builder.py
-generated: { by: "openwiki/0.4.3", at: "2026-09-15T08:21:56.110Z" }
+generated: { by: "openwiki/0.4.3", at: "2026-09-16T08:21:31.094Z" }
 verified:
   - by: openwiki/0.4.3
-    at: 2026-09-15T08:21:56.110Z
+    at: 2026-09-16T08:21:31.094Z
 ---
 
 # NPM Snippet Components
 
-`@langchain/docs-sandbox` is the package boundary for selected interactive documentation components. The documentation repository declares the package as `^0.0.23`; the lockfile resolves the current installation to `0.0.23`. The builder's allowlist determines which package artifacts become generated site assets. Generated files under `build/` are deployable output and must not be edited as component source.
+`@langchain/docs-sandbox` is the package boundary for selected interactive documentation components. The documentation repository declares the package as `^0.0.24`; the lockfile resolves the current installation to `0.0.24`. The builder's allowlist determines which package artifacts become generated site assets. Generated files under `build/` are deployable output and must not be edited as component source.
 
 ## Published component contract
 

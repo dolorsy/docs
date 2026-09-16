@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:c6ca7ff53dcb82afae0c12eaf3ff871dc46d4a6844b16650aaacfa60dc205091",
+  "pageVersion": "sha256:fbe148a96cf734efacead235a6edd686de0e514ac3183c05f680c8445649faff",
   "claims": [
     {
       "id": "claim_80e624f4588748b9980bf9abba14af71",
@@ -75,20 +75,6 @@
       ]
     },
     {
-      "id": "claim_9e4da8ed9ba94175affe1dfe367bb791",
-      "statement": "The publish.yml GitHub Actions workflow deploys documentation by building /build/ from source, copying it into /public/build/, and pushing to the prod branch using peaceiris/actions-gh-pages@v4. Mintlify monitors the prod branch and automatically redeploys when changes are pushed.",
-      "evidence": [
-        {
-          "resource": "repo://.github/workflows/publish.yml#L1-L49",
-          "version": "repo-lines-v1:sha256:6cc300cd8a9dd2b09fc6282e797cf2abcb30d867a9e968b969a852d17733f27d:eyJzZWxlY3RlZExpbmVDb3VudCI6NDksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4NjZhMjU2YWNlOTA5MWFhMzdkYjVmZDM3ZmQ3NGRmMjA4ZjAzYjNhYjk4ODE0MmI2MDUzMzUzOTA5NzYzNjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZWNjZTQ4MzQwMDBhZTNiMzJlNzQ3YTFiY2ZmNzcyMDVlN2Y5ZmM0Y2JkZGFhYWJhOWJkYmVjYzlmMjk5MWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
-        },
-        {
-          "resource": "repo://README.md#L54-L62",
-          "version": "repo-lines-v1:sha256:9ac1d3a39304a199c34af904e4220289665cacc1d23c70a3361e8536a5d96f35:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMmUxMTllYmY0MjBkY2FlNzZjMTJlYjZlYThjZGFhMTIxZjE0Mzk1MzBjYTg5NTQzYzgxNjcwODg1YjJmMWJlMSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZTY3YmQ0YzFhMTgzNzhmZTEwOWU3ZDEzNTA3OGQzYjE2OTEzMTAyMjI2YzdmMGQyNWIzYzk0NDg1ZjAyN2E3NSJ9"
-        }
-      ]
-    },
-    {
       "id": "claim_96837b1388934f88a2268115196d6bda",
       "statement": "The redirects array in docs.json maps deprecated or reorganized routes to canonical pages, including former LLM Gateway paths and explicit unversioned Managed Deep Agents paths to their Python routes.",
       "evidence": [
@@ -98,7 +84,7 @@
         },
         {
           "resource": "repo://src/docs.json#L2659-L2800",
-          "version": "repo-lines-v1:sha256:551ec8d1c2b0410a53473de6032f4e4221f6f28c3cd6c6b6bac51181e6201301:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQyLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJlYjAxNTczYWQ3MGMxZGYxOWI5MWZkODZjYjcyMjUxNzZmYWUwNGVmYmJhMzYzZDY5OTgxMWMxNTNkYzFiOTQ5IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3YzcyNjdkMDY3M2UzOGM2MDBmMTRhMzc0Mzk2NzBlZjUzZDRmNjk0ZjliYzBhOGI5MDhmOTI3MjI3MjJiYWUyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI4ZjIyMzYwOTE0MGViNTZiZDYzZTNiZjI4OTM0MTIyYjk0MjdjZjVkMTFkNDU3MmNkYzViNWU1YTI3OTY5NzlkIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4Mzk0ZDE0MGRiMTNmMTlkYzgyOWEyNGQyZjdmMjIzN2VhOTExNGExMzg0MWUyMmI1MjFiZjE0NDgyYzVlY2I5In0"
+          "version": "repo-lines-v1:sha256:baf9355d12a8a8374580b4423a03c345a2435d60e912e084acc23d22414f03fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQ2LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJlYjAxNTczYWQ3MGMxZGYxOWI5MWZkODZjYjcyMjUxNzZmYWUwNGVmYmJhMzYzZDY5OTgxMWMxNTNkYzFiOTQ5IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3YzcyNjdkMDY3M2UzOGM2MDBmMTRhMzc0Mzk2NzBlZjUzZDRmNjk0ZjliYzBhOGI5MDhmOTI3MjI3MjJiYWUyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI4ZjIyMzYwOTE0MGViNTZiZDYzZTNiZjI4OTM0MTIyYjk0MjdjZjVkMTFkNDU3MmNkYzViNWU1YTI3OTY5NzlkIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4Mzk0ZDE0MGRiMTNmMTlkYzgyOWEyNGQyZjdmMjIzN2VhOTExNGExMzg0MWUyMmI1MjFiZjE0NDgyYzVlY2I5In0"
         }
       ]
     },
@@ -214,11 +200,11 @@
       "evidence": [
         {
           "resource": "repo://pipeline/core/builder.py#L101-L123",
-          "version": "repo-lines-v1:sha256:ed920d2596b196e51e78a63d00fdb452fb560d7e52a4cf6a4edd9e0566bc1100:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0Y2ZjNjdiOGI4OWI4NjhjMzdhYzYxZDY4MjAxNTRhNzUzYTI3YjVkNGI2NGRjMjkxM2VkMjAwY2Y3ZDliNjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxMjVkODEzNzc4Yzg0MTk1MzQ0MjMyY2YyYzA5YjVkNTUxZDg5ZDY3ZjBjOWQ5N2ZiNTUwMDkzMDY2OGRlMzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVhOTdhM2Y2ZDQ3OGNhMTVhZTYzYjJkOTE3YzgyODY5ZTFjOWZiOGMwYTdkN2EyMDEwYjE3MDY5OTQ1YTZhZDAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA4MzFkZWI3ZWMxZGU5MmNiNDA0NjNjMmFmZGFhM2NmOTAwNWRmMjg2ODdjNDk0MWU0MDFlYmNkNWExYjU0NTEifQ"
+          "version": "repo-lines-v1:sha256:277febc204852f9fbeb43cee9ccbac2926230ca82ae838b61c24cfb43e807922:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0YTA5ZWEyYzU4MmNiYjI0MTBlYWMzNmY0YTU5MjY5ZjM5NDU4ZjM4ZGMyZTNmMTczOWZkZDZmNDdmZDIxYTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjJiOGVmOWYzNWZmNjlkMTQ2MzYxNjYyN2JlMTdlMDUzYzYxODZhZTVjZGEzOGQwYmY3NDVlNjUyNWRjNTM4NzQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImZmMTIyZTgwNjVjNjgwNTdjNWYzYjUzOWMxODhlZjE1OTc3N2ExNTFjZDAxMWYwZWE2Y2FhOThlMmM1OWJiY2QifQ"
         },
         {
-          "resource": "repo://src/docs.json#L2435-L2574",
-          "version": "repo-lines-v1:sha256:899b759b00a37b3b3ecb0c2139b658e0ccb62699fda2e35be704407a300d2f9a:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQwLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5ZjhhMThhOGZiZTIyMjM3ZTE4NThkZGVjYjg3NzcyNjVmMGE4MGM5YTdkYmE2OGNmOWNkNTYzMDI2ZDBjNjllIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI4ODAwNWQ1NzEwNmEzNjJlYjAwMGRhZjNkYTQ2NzRjODJiNTE4ZmY1YTJlMmY2N2VlOGU3NTdhMzMzYzJhZjY2IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlNDg1YjNkNDY4MzliZWZkYjczMzJlMGQwNWE1M2VhZDE4MzNmNGE2YTZmYjM0NTY2MGM4NjkxNmY0YjIwYmJhIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJiODhhYmFmNWE1MDQwYWEzZTZiZTFhYWVmYWZiMzE5YmE3MTI5OTFlYjc0N2JhYzYzYzAyMGQzODBiZDA4MzViIn0"
+          "resource": "repo://src/docs.json#L2455-L2590",
+          "version": "repo-lines-v1:sha256:70b046b3936b26c2d8b8fdd0a3f7aae2db16324f9d6715df3bf9fd49c90f955f:eyJzZWxlY3RlZExpbmVDb3VudCI6MTM2LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJkNGFlNjE1YWEyZjYzMzFlMTNhMDE0M2Y4ZDVkYjdiOWM0ODY3MTAxYzllMDE2NTRjODBiYzg0YjI1MGY1ZWU5IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJmY2I5MTI4YjRhY2UyZDUwZWFhNjFlZWJiYTg2YTBiYzBhZDZmOGI2NjA2ZTkxMTA4NjZkY2E2ZTY2Y2Q5MzVkIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiI3MDMyMWNhNWU3ZDhlNDk5ZGRmMjczMDgyMmVmNGU5NWM4YmZkYTAxODRiZDZjZGNmNmFlMGI3OWMyYTQwZDhlIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI0YTZlNDg5MWEwMDM1ODQ3NzMyMzUwZjBjNzI1NWIzMWVjMzE4NWUzNTk0MTFmNjViZmEzNGZhZWZjZjJhNDI4In0"
         }
       ]
     },
@@ -239,10 +225,80 @@
           "version": "repo-lines-v1:sha256:f595cdc28961335939bc94106cccc9a6da75fce1152a715e7961efb2ac957211:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M1YTAzYmI0MDJmNzc5N2ZmNmE2MGM1NWU1ZWViYjA3NWRlMWZiODA2YWZmYjIwZTQwYjI5MzVhOGViYWQ5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmEwYTYwM2UxYjkyZmM1MTYyNDRlOWNiNzkzZjY2NWZjMmFkNzhjZjc0MTQ2NmI5OTBmODkwOGNjYmEyZjRmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiY2I3ZmNmYTI5ODM3MWQ2M2YyYjhkNzMyMmE1NTNhZmJkOTZkNTMyZDc3NjJmNDc4ZTljMjU5NDVhYzIyZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJiNGYwZTZiYmYyOTBlODE2ODdhZGI5Y2U4ODQzMWE5NWJmZGI3OWMxMzYxYjVjNjY1ZjMyYjk0YWFmYTc5MCJ9"
         }
       ]
+    },
+    {
+      "id": "claim_2cb31a7fa6c74fb992ce9de7bda13096",
+      "statement": "A full DocumentationBuilder build deletes and recreates build/, emits versioned OSS and special unversioned or Managed Deep Agents route families, then copies shared files before generating renderer-facing artifacts; changes to build/ are therefore lost on the next full build.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L63-L85",
+          "version": "repo-lines-v1:sha256:33f5175fa7c3d4b9e86b6785167d4308f3f24ddb3f3f43c665ddf8be29719ac4:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ2ZjFmYTdiNTczMzdhZmJiNjY3NTRmMmVkMWU3ZWI3YzFhZmI4MzBlOWVmZWY1MGIzMzgxMDViZjk0OGJhYzYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA3N2U3ZGMyNzUwZjY2OTVlYzU2NTc3MDQ2NDRlMDY2MTY5Yzk3ZGIxZjk0OTNkNTg5ODUyMzZhMGM5NzM3NTQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYzNzY2MjI4MjAxNjRhZTExZDJmYTU3NTZkMWI4ZWZjYTg0NjRkNmY1MWUzMzBiYmY0NzZlM2VjYmQyNGE5OTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFkYTM0Y2Q0NWU0Nzc4ZTgzN2Y3YzhmYjczODY3NzE5OWUyNWU5NmZhMTdmMmY5YWFiNWZiYjc1YjNkMTVlMmEifQ"
+        },
+        {
+          "resource": "repo://pipeline/core/builder.py#L78-L139",
+          "version": "repo-lines-v1:sha256:949e4203139c8a0525ca36ea161a9e5ecc45b767ad72829f8d3d2624562a9d96:eyJzZWxlY3RlZExpbmVDb3VudCI6NjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3YzVhYjc5M2VjZTcyMTM3MjRiODY4N2NmOTI5ZjBmYWMyZjBkYTA1YjlmZjVlODM0YWMyNzQzZWQ3MTNkYjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM2NWVmYjcwNTkxYjM3NDlkZGZiZjI1N2VlNDEwNmNiOWRiZGUxMmM0YTg2YTYwYTZlOTBjNmVkMzdlNjdiZGEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIxZjE1NmU0ZDE1OGJlNGRkMzExOTNjZGRiZWQ2NGFhOTExYjEzOTUxOWZiMTI5YWEzMjFmZmQ4NzQ2OTdiNmEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBlNDk4ZDg2ODA5MTc5NTA0YWNjOWUwNjdlMzY2MDY1ZDU3YzZmMmJjNzA5ZDA2ZWI5NGE4MTRkOTEwZTU4NzkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7a4e8c677b9e45c4a027b07c04267b77",
+      "statement": "The LangSmith OpenAPI refresh processor fetches only the allow-listed api.smith.langchain.com host and produces a public-facing specification by hiding selected fleet, internal, and health endpoints and adding human-readable tag groups.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/process_langsmith_openapi.py#L121-L160",
+          "version": "repo-lines-v1:sha256:6593463217eb534a40fa0e4811c15dcda81595a79b8ed7c2a63946d33636489c:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlNWRjZTA1ODc1M2FmNzRlYzhjZmRkNmY0NjgyMzUyYWUyYzNlMDQ5MGJmZWU1NjM3MTIwMTRmMTBlY2FhNGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjczMDU3ZDZmYWNkNjUwN2EyOWYxZTczN2QxNDRhNmY2NmY1MTQ0NzFhZDc0M2QwMDgyYTI2M2YxYWM3MzQ1ZGMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQzNmRhNGMyYzlkNWFmYTZkNWNmNjQyNWFhODkwYmJjOGJmNWQ0YzZjMzJkOWUyMWE0Y2RkNTNhNzYzYWI4ZDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhlOTJiZTFkZjMxMWEyOTE4OGRlZDExMzY5NjcyM2MxY2M3NjAzZjBiODMzM2JiN2UxODQwMDhiYzg2YzZlM2UifQ"
+        },
+        {
+          "resource": "repo://scripts/process_langsmith_openapi.py#L39-L91",
+          "version": "repo-lines-v1:sha256:09a3f005eb0cd08b9e56d21c554e7bd312eb47f10664fbcfca415036d9c8847d:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjIzMjQ3YjY5MjIxODI2NTE0ZDllYjM1OWE0NDAwMTc3YWMxOTk0MmYwMjBhYzZiNmY3MTIwOTFhNDE4OWVmNDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5NDE2ZTA5Zjc4YmEzMTZjMDMyNTY4MjEzYjg1NWVlNzU2ZTQxNTY1ZDkxOGYwOTUxOWM4MWZkNjIwZjQwNjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU0MTc5MzhhOWJhYmRhMjgzYWRjNzU4Zjc4YTVkZjFhNzViZGQxZjEzY2EzZTFjZDAyOWNkNjNmNDYxMDQzYzYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjBhZjZiYTJhOWMxZjgxNmIxYTFiYmE5YmIzYmYxZGY1MTc1ZWYzODNkNDJmYjM1ZDNkYmFmOGQzZTBhMGE1MjAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_627624d0f095417b872ab4b2ecab576f",
+      "statement": "make check-openapi rebuilds documentation and validates only build/langsmith/agent-server-openapi.json with mint openapi-check; it does not validate the remote Control Plane input or all configured OpenAPI specifications.",
+      "evidence": [
+        {
+          "resource": "repo://Makefile#L181-L184",
+          "version": "repo-lines-v1:sha256:a35b5d49b5d3f730517d0fdb038f602ea7fa2439fedfb57859a839326ee6a7d4:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiOGJiOGJhYjhiMTIwNzVhN2RkOWQ1MGM5Njg2ZGEwMjY2MWE2MDI0NDYzMzU2M2VlODdiYmRjMjdjY2M4YWI0YSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZjU1MDdkNjVhZTY1OGU3OGNiODQ1NmZhMDNjYTlmMWM5MDA3MzIzMDI1MTA4Zjg0NDY0NzRjYTM5YTlkZTRiMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMGEzMDNmYmY5MGU4NWQ2YTc0ZGMxYmVhNjFlM2I1YjZlMWUyYWVjYjRkZTM5NGYzNTBiYzQ5MGI4MmMxNDUyZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzE4ZDkxN2Y0MWEyYjlhYTZjNTllNmZjNWY2YjIxZWVlMTZjMzU2NjcyMThmY2JjODY3ZmM5OWNjZGQyMGRmMSJ9"
+        },
+        {
+          "resource": "repo://src/docs.json#L1631-L1647",
+          "version": "repo-lines-v1:sha256:f27c97fd2775337f546fc60750f46ba853ef6d04bc522dd95d75c676b2ccb95b:eyJzZWxlY3RlZExpbmVDb3VudCI6MTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA2OTBkYWVkY2Q1ZWY1ODg5MTIwOWIwYzJjZmFjNDlmODdhNTUxYzE5NzJlZTVjNzJlZmI2NTFlYTljMjJjNzAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3YTVmZmEzZTA5NWRmMDViNmIzMzMzODcxYWJhMWMxYjNlMjVhYjNkYmYxZDQ5MmYxNTRjMmNjMmIxMjJmNTciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImVjOTNhY2U3YTJkMTMxOGM4NTRkMjZmOGIxZmIwYWMyN2Q1ZmE1MDMxNGVmOGQzNjU1ZDFhOGVlY2U1YTUzMWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY3ODkxZTk3NDk5MmY4NTBkOGZlNmNkNGI5ZmM1NzI1NTM4OTdiMmNiYTIwY2JjY2RhNGZjNjg5ZjI0NGM2MjgifQ"
+        },
+        {
+          "resource": "repo://src/docs.json#L2147-L2155",
+          "version": "repo-lines-v1:sha256:f595cdc28961335939bc94106cccc9a6da75fce1152a715e7961efb2ac957211:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2M1YTAzYmI0MDJmNzc5N2ZmNmE2MGM1NWU1ZWViYjA3NWRlMWZiODA2YWZmYjIwZTQwYjI5MzVhOGViYWQ5OCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNmEwYTYwM2UxYjkyZmM1MTYyNDRlOWNiNzkzZjY2NWZjMmFkNzhjZjc0MTQ2NmI5OTBmODkwOGNjYmEyZjRmYyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMzFiY2I3ZmNmYTI5ODM3MWQ2M2YyYjhkNzMyMmE1NTNhZmJkOTZkNTMyZDc3NjJmNDc4ZTljMjU5NDVhYzIyZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiODJiNGYwZTZiYmYyOTBlODE2ODdhZGI5Y2U4ODQzMWE5NWJmZGI3OWMxMzYxYjVjNjY1ZjMyYjk0YWFmYTc5MCJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_7b5b89e4b3944b61ba579f785f18b318",
+      "statement": "The production publication workflow runs for main pushes or manual dispatch, verifies a successful build, copies build/ into public/build, and publishes that public directory to the prod branch with peaceiris/actions-gh-pages.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/publish.yml#L4-L49",
+          "version": "repo-lines-v1:sha256:de2c35d4cb0032c367be51e97abbcec4ff8492de49814f50b4cdb8a493910e62:eyJzZWxlY3RlZExpbmVDb3VudCI6NDYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NmRjNDgxNDlmNWE4M2QxZWQ2ZGJiMzliYmM3ZTJiOTAyYWEzZDM0ZDZiZDVhZTRiMjkxYjY4ZGYwY2E3OWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZWNjZTQ4MzQwMDBhZTNiMzJlNzQ3YTFiY2ZmNzcyMDVlN2Y5ZmM0Y2JkZGFhYWJhOWJkYmVjYzlmMjk5MWYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdiODJkY2NiODM3NzUzZjc4YmE1ZTg2MmFhNGQyN2M5NDg1MmFlYjQ5NGI1MTk4ZjNjOGQ1MzZjM2RlMDdlNTEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8d1446f9014c48fab3a179cae8c787e6",
+      "statement": "Mint link-report filtering suppresses only known non-local OpenAPI destinations, snippet sections, selected legacy paths, and three SmithDB anchor reports when anchor checking is requested; other reported link entries remain actionable.",
+      "evidence": [
+        {
+          "resource": "repo://Makefile#L149-L184",
+          "version": "repo-lines-v1:sha256:597c8b6139c75a8489b27f7fb20becac1d217e719f67772ba9e3769c84c21491:eyJzZWxlY3RlZExpbmVDb3VudCI6MzYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlkZGJkZWExNTIzYmRmYTBlYTJkYTA2NmI4N2IwYmFiMmY3MGUzZTA2ZDkwMTU2MmIxMDNlM2IzMjIxNGU3NDYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY1NTA3ZDY1YWU2NThlNzhjYjg0NTZmYTAzY2E5ZjFjOTAwNzMyMzAyNTEwOGY4NDQ2NDc0Y2EzOWE5ZGU0YjMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjAxNDgwOWI4YjNhZmZjYmM5NDlmYjVjZTZmYzY0NDNhNGM4Yzk5MWIzMDA3YTYzZWQ1OTM3YzA1OTNhMTQ1ZmQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcxOGQ5MTdmNDFhMmI5YWE2YzU5ZTZmYzVmNmIyMWVlZTE2YzM1NjY3MjE4ZmNiYzg2N2ZjOTljY2RkMjBkZjEifQ"
+        },
+        {
+          "resource": "repo://scripts/filter_mint_broken_links.py#L20-L61",
+          "version": "repo-lines-v1:sha256:0ce3d42d3c01440bb027ed0fb2156f01628db24f8f0c04e00e9e127e11a5ec31:eyJzZWxlY3RlZExpbmVDb3VudCI6NDIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY4YzAzY2E5MTA2NzdjYTc3ZjM4ZmFhOWMxZGJkYWY5YTdmYmFjMmFmNzU0ZGU4ZTc2YTVhNWNhNDhhODA5ZTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRlOGYyMDQyZGM2YzJmMmM2Yzc2NDhiZDQ0OWQ5NTRlM2ZiODA3N2FkMzVkZGE4MTJjNDQzOGJkOWNiNjYxMjQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ5ZmFhNTk4NDhhMjQyM2EzNDQwNWNmNmFmMGVkYzc4ZjMxOGEzMjgxNzdhOTgxMjMzMzk3MDUxYmE1YzQ5YjEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY4NzhlYjQyOTc4MDFjZTFlY2I0OGJmNmIxYzk3YTZmNDQ5ZTI4M2Y5ODQxYTUxZTJlMjNjMmQ0NjEyODY5NjEifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.4.3",
-    "at": "2026-09-14T08:24:18.469Z"
+    "at": "2026-09-16T08:21:31.094Z"
   }
 }

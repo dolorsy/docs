@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:03327861528330ef71b03664b9c97404568c4fe487ed8791dd1ba6205056ecc8",
+  "claims": [
+    {
+      "id": "claim_d0d924a2552d4a2bb0241dbbdd5f5ada",
+      "statement": "The repository separates version safety into a registry-existence checker for package specifiers in documentation and an opt-in synchronizer for documentation requirements that an upstream project owns; neither is intended to determine whether a feature minimum version should be raised.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_external_versions.py#L1-L20",
+          "version": "repo-lines-v1:sha256:90c35e3586322b5425cd661d4ab1ec41e090690d83d03eb5aa73f4e6ad6abc2c:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU4NzM1Mjg0MGZiMWExYzJhYzI5ZjQ5ZDdhOTA2YjE2NGIzNDdmMzA3MTQ1YmNkMzdhM2JlNzc0ZjBiYjY5MGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjI1NTVkZDM5MDFjZjczZmY3MDkxODdhNDE5Y2I4YTc0OTk0MTY1MGI4MDVmNDgzODhjOGY2YmMyMGNmZjE4OTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFhYWY3NjM3Y2I2ZTdlNWRiODVkNjM0Mjc0NjAxNGRmMDQxY2NkNTU4YTkyMGIyOWViNmFjNzE5ZDdiYWY1YzIifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L1-L21",
+          "version": "repo-lines-v1:sha256:2bc7c9e8027e592d1604853d4a4183203925f4b5e4012c26e8bccebe32cb2933:eyJzZWxlY3RlZExpbmVDb3VudCI6MjEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE3NmU3ZjgwZmIxNTVkNDhlZTdkMGYzZmJlMWRlNDllNmViYWNiYmE5MjE2YmIwODM0YzIwYTkxNThhMDc5ZGYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImEzMDNlY2RkNGE0ZDEwZjE5YzczZmQ0MmZkMTI0MzdmZDMzNTRhODI2ODE2MDVkYTUyNTVhOTdhMzkwNjhkYmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU1YjZlODcwNmI0MzA0N2YyYTZkYjY3ZjEzMjYzODU5NTYwNGU2N2YzNjk2Njg3NmNlMDE1OGYwMDUzZTZiZDEifQ"
+        },
+        {
+          "resource": "repo://scripts/data/external_versions.yaml#L1-L18",
+          "version": "repo-lines-v1:sha256:3317ab34e501d928323d65bcc3f01330938be204cf9f043eab10adf6dda34e9d:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM3NDI2NzRjMDI1MzY4ODU1ZTEwZmNkZjJkMmYzNTk0ZDFjZTBmZjlkMzAwMmRiZTBlZjgxMThhYzI5YTIzODMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3NDgxMTU3ZDQzNzI0YTQzZGFlOTkxY2ZiNjY4NjBmMjgyMWU1OWY4ZjkwOGEyMzVlZjMwMThiNGY5OGY2NDMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijc1NWU1MmNjZTk3NWQ5ZmM1Y2Q4NzUxNDI2ZGY0MGI3MTM1NGYzNWZhYzY2YmVmODFmN2E2ZDNlOTE5Nzg4NGYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_7100130da3204537958acd37cf03b275",
+      "statement": "The package checker extracts `>=` and `==` specifiers from MDX, resolves their ecosystem by package syntax, nearby language labels, language fences, page path, and then a PyPI default, and accepts a shortened version only when it is a dot-delimited prefix of a published release.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_version_claims.py#L233-L242",
+          "version": "repo-lines-v1:sha256:f5294989eea0de0aa4ae41d8d60b8ee426d1a44d9854b1c2c365e13b78491750:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjVkNmYyNTIzMjBiZWIxNTc3YjNkMjMxMzk2OTg0ZWJiNzQ1NmMwZDg4ZjRkODNiMzg1ZWI2NjhkY2E1YWY5NTEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjlmNGNlZWQ4MWUyYTZmZTU1ODQ0OWI5ZTQyYjcyMmFlZjRlNzc0ZDBkMTE2NjQzNTcxZWQ5ZWNmZTM5ZmE0ZDkiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjczM2U4NDg3Yzg1ZGZkY2Y5ZmE3YjkzYzc0NmM5NDYyNWFlNDdlMTIwYzc5N2U3OTFlNzM3ZjllZDdmZmM3M2QiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5YTI4NTJkYWUyN2FmOTcwYTVkMGZhMjAzZDNmYmJkMTc2ZDg4ZGRjYzQ3MTVjMTQyODMzN2I5NTMxODBhNjIifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L39-L178",
+          "version": "repo-lines-v1:sha256:184e21a55ffe130afe30b9440e97e7955e9433dcec84572cf1e608a544700adb:eyJzZWxlY3RlZExpbmVDb3VudCI6MTQwLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJmZGJiOTQwMDFlY2MzOWU3NmZhNWQ1MTY5MDg3NWRkMjBkMmE3YzRkNTg5ZGM4NjRjMTQ5YTJhMTZkYWU0YmVkIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIwNTc1NzRjZmM1Y2U4MTRhMWMzODY3ZjBhNjUzZmZlMzBiYmQ1NTgyNWI1ZDk3ODhiYWNkMTY1Yjg4ZjY1MDkxIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiIxNTdkYmUwNzRmMjVlNjFlMDUzYWFlMGExZTVmN2Y2YTYxMTllNWJhOWEyOGUwYWM2NjAxYjZkNWVhYWMzZDRlIiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiJjZjJkNWFjYzhhODllMzFiMmEwMmEzMmFjZmJjMjUxZTVlOWNkYzQzODkzMzkzNTdhMmVlOTM0ZDEzMmQ2NzJlIn0"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_version_claims.py#L135-L150",
+          "version": "repo-lines-v1:sha256:0fa0a7a23905c2b2f191489e8fbe04868a0c808a57e5e43de49a364c8b99214e:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImFmMzQ1ODNhNTk4NzY3YmY1NmFlZmViNjVlMjAzM2ExNjUxY2M0YzhkN2U2ZjBhZjNlNWNmZDMyOTNmOTMzYjMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxNWFmMTc5ODk3NGMxZjE0NGI0ODVmNDNkY2U1NDFiYTI3OWQ4MjI5YmY3MzI4ZGM5MTIwOGZmNTgyNWE3ODgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImM1ODQ5YWU1MWY2ODk2ZWVlYWYwOTE4NGJhMTlhYjE1MTVmYWFmYWM3YmEwOWQyNzA2NjhhZmU4OWZiMjIwMWYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6Ijg0NTZhMTUwZDQ5ODRlYmVmMjY3MzQ1ZjIzNjBlMDcwYWNhMTVkOWZhYjI4NThlODY2OGM2OTI3Y2RkMGNjNWIifQ"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_version_claims.py#L22-L112",
+          "version": "repo-lines-v1:sha256:2c0802be7d17fe980fcef6c78d6305e3478853ddb4b2c50df8335fb510d8c200:eyJzZWxlY3RlZExpbmVDb3VudCI6OTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImYyYTY1ODhlODFmZjZlMmQxN2IyMjg4NDczOGRlMzFlOWQyODIwZDhjOWE0Y2JjNDAzMGZjMzU5MWYzYzJmN2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM4OGUzZTU3Yzk0YTNkMTA1NmMzYTRmMWZmZmU5ODI0MjIwMmE1OTJlMDcyNWViZDkzNDY1NzJhNzg5ZDc2YTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijg5Zjc0ZjAwZjU4M2RhODhkYzVkNDQ5YzI4MDg1MDE5MzMwOGJlMzFkMjE4NzYxZjg0MDc0NDhhNThhYTdlM2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjZhZWE3ZjA1NzJjN2ExNzMzMDIxZTkwNzdkOWYyZjZiYjJiODE4NTk0ZGQzNjYxM2JmNzlkNTNlY2JiZjBmZWIifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_22177c722ab346a3b8477bf4be6c0589",
+      "statement": "Registry queries are constrained by PyPI and npm package-name allowlists, use a 30-second timeout and up to eight workers, and treat lookup errors as unresolved notes rather than nonexistent-version failures.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_version_claims.py#L193-L230",
+          "version": "repo-lines-v1:sha256:dc38247d7e1c13d78d964a039950ecd57990a4e6e19d59407560f90dda731c76:eyJzZWxlY3RlZExpbmVDb3VudCI6MzgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjA0NzhmMTA5MDFhNzc3NmVkYzg1YzMxZTRiZDQ3MmJjYmVhYjM1NDBiMmQ5Yzc4YjI2YTMzMGJhZjM3ZmQ3MzQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImVlN2M5NTdiY2I0NGZiNjczYzk4YjAwNTBhNzVkMzgwODJkYjgxZDkxOGRlMzEzYTNmMDdjMTIzNTMwNmQ3ZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU2OTI1OTU0YmFkYWEyOTNhNjU5MDYwY2IzMGNlMTRhNmM0ZGVmNTBjM2IyYzBiOWVkMTk5OWE3MGU1NTI3NTAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImEzNTNmNjgyMzdmMThlNjhmMjBjNGE3MmE5YzFlYThjOTc3MDMxNTU0ZDE0NjRkYTg4ZDU2YjY3NTlhZTZiMWYifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L299-L329",
+          "version": "repo-lines-v1:sha256:9dc442f631efaddf6fb04d490952e9e8f2b732033287ee77e37f70a52a4d5999:eyJzZWxlY3RlZExpbmVDb3VudCI6MzEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImMyMjZiZTVlZDU0MmIyYmU2NjQwM2U1NjMzZWI3ZjQzMjFlOGE0ZmY1MGY0ZmYzYjA0YWZlNzRjNTlmMGRkNzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3OWIwZjhmZWMwYzliYmFhMzk0ZWQ0YjQ4OWYyYzU3MDYxYTVlOGIwMDVhOGYxMWI1ZGM1MGJjZjI0YWExYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc1NWVjZDg2MGQyZmQzYmY1M2Y4ZDZjMzlkMGIyNzFlNTAxMjI3MjdiNDZiNjlhNDkwNTRjNWNjMGEzMGYyNDIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImQzY2ZiYmRkNmI1OTVmMTYzZGQwNGJmZjM0MWU0MTI2NmJmZTVjYTYzZDc3M2RkNDJiMDJjNGYwOTUwMGVhZDEifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L51-L53",
+          "version": "repo-lines-v1:sha256:52187fbd327da157b6212e5487160a6276e56fe53286632d13022b5effcc912a:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMjdiZGQxNGYxMDRlMjk1NmUxYjZlMDZkN2I1ZmI1MTMyZTk1NWZjYWVmM2MwOGU2OTlkOGEyMzhiNDM3ZDRiZSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiZDM4ZWU1YmY0M2ZiOTQyNDNlOTFjMTdlOWUxZDU2ZjdiNjMxMjQ1NjcyNTNkNGU2YzgxZjY0MzQ2N2ExYTlkMCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYzljMmNkZmQ4ZDM1OGNkMWE5ZmFkYTM3OTQzODAwOTkwZjhmZWRmYzJmYzVlOTM5NjY2ZTVkNjhlYzIxOTFiOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjI1YzE2NDFiYzY5MjkwZjQwM2EwNzQ5ODM5YjE4NWU2ZmI1MjgwY2EwNmMzNmRmZDA3NjllMDVjZjc0MjZkOSJ9"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L77-L80",
+          "version": "repo-lines-v1:sha256:feefcbab4a1b749d912490619e9d1308444e9bceaa67d35cc8922c1e20a430f7:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMDkyNGNiMDVjNGYwNjFlNDUyNDUxOGQ5MjA5YmNjNTU0YWYwNTg5ODBmYzkwOTRkODExYzQwMmFmZWI5MzBkOSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmU4NDI1ODdiYjkwZDQxMWQ4NWE2MTUyODliMjAxZDEzYjhkNjZmZDhmMzA3YWM4NjliNWNiYjcyZTkwMTBjMyIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDA3NDMwYjdlNDQzZWNlNThkYTY1NjdjNzliNDUxNTAyYjg2ZDVjNDgyNWU0NjhiYWNkMTBkYzRmYWNmNzRmOCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiNzBjZTNmMjRhYjQ3YzJmNWE5ZDMzN2YzNzdlZDg1NzNmYTU2NTg0MDc2NDAyZjFhZjA1NGEzZGVkNjE5NDYyZiJ9"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_version_claims.py#L171-L195",
+          "version": "repo-lines-v1:sha256:3d76aae63f20b8e2141d6129fe5264667a54bd952c101fdba8f9a84094e32798:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0N2ZkOGJhOGU0MjY3NWEzYTZmOTc5NWEzMmYwMmFmOGNkNDUwMGM3ZmY1MjNkZWRhODM4NGEwY2I0MDdjMjEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjUwMTU3ZjY4ZjMxYzc5YWNiZmQ2OTcyYTY3MmFmZjM0OWUyOTQzZGVmMDkxMGI0NmQ2NjYyNjRkMzE1Mzc2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjY0NzQ1NTc0ZmE5Nzc1NTBjOTFiOGU1YmVkYTE2Mzg0NTViZjNhOGZlMjczODdjNmEzYjNlN2JjNzk2MDcwM2EifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_ae70dcb73a3849589797c802f405df43",
+      "statement": "The ignore file suppresses literal specifiers after comments and whitespace are stripped, and is intended for known-good unresolvable values such as deliberate any-version floors or placeholders rather than incorrect documentation.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_version_claims.py#L245-L254",
+          "version": "repo-lines-v1:sha256:b63b44243e654018ad34e9be11535cb9310fcc4f0fe7348a514f86077b79a4fd:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMyMmY1NTUwMmYxYTEyYjhkZWZmNmNkNjhhYTlhYmY4Y2FmN2MwYjY4NmEwYmMyMDEwYzUxMTI1MzBiZGQzZWMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0ZGRkZWY2NmE5NDJiNjVkNmY0MDBiYTJiZTE2ODlhNzY5ZWUyODQ5ZTI5ODkyNjIzNzNlZDI1OWQwNDRhYzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjFiNmZjZWEwODdiOWEzY2Q3MGVkZTBkYzY0YWU0M2E3YzAyZDI2NTA0NTNkNzgwZmNhNzhmYTJlNDYxNWE3ODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0OGQ3NDgzZDA2MGYxNzIyZTI0NTM2ODg4MzM0MjU2YjU0OTBlOGJiZTg2OTgyMDY3NmNhOWVhZjM1MDljYzkifQ"
+        },
+        {
+          "resource": "repo://scripts/check_version_claims.py#L283-L291",
+          "version": "repo-lines-v1:sha256:60652a69a4cdeb940a416dacaf58286c981c731f6129bff0e70294ac7cc02792:eyJzZWxlY3RlZExpbmVDb3VudCI6OSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYTZlOGVmNDQ3NWVjNDkyMGFiOTkxYmY0MGI1MTgzMzYxNGY2OGI5OTc2YTJlZTY2OTUwNmE2NGMxY2EwNjI0ZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiNWExNjgwOWMwNzVkYjMwOWUwOWJiYzlhYjdlZmVlNjllZmI1ZjQxOWJkNGQ4OTMwZDAzODA2NjAyZGQwMmZkNCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZmQ3ZmI2ZWEyNzc5YzFkOTIwNTJlOTc1OGI4MTllN2JjYzJhODQxNDJkOTc1Mjk3ZjA3N2MzZTNhNzlhODNjMCIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYWVlNjFhNDY3ZThkNzMxNDA3ZmZjNjg5MjI3NGI1Y2I5YTYxMjQzNTI5NTQ1ZWZiMzIzNzY2YWEyZDM2MTVjNSJ9"
+        },
+        {
+          "resource": "repo://scripts/version_claims_ignore.txt#L1-L25",
+          "version": "repo-lines-v1:sha256:13ebe8f25317f509ae2893d09afe3bce2c50398b8c202912513989e32d1928e6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImM3MTMzOWM1YjIzZDUyNjg4ZDY0MDNiN2E4MTI1Mjk4ZDNmYTUwNjFhZDZkNjk4MmM3ODVmNDVmMDc4Yzg1ZTIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk4ZTYzMDAwMjdhODY0NTAwNDYzZWE4ZGZjMmZhZTczMTI5Y2MyNTViNTRjOTA3NWYyYzA1ZTIwMWM4YjgxZjAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_version_claims.py#L115-L118",
+          "version": "repo-lines-v1:sha256:099e9a67a47c867e5dac2a88389bcf5cc9a2234846e8fa7d29c35203b77ed726:eyJzZWxlY3RlZExpbmVDb3VudCI6NCwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiYjIzYjcwYmQwYWYyZDVkODllZGMzMGZkZDlkNTEyMzRlZGU5NGZlZDdmNjdiODJmODNhNDhlNjVkMzU2Yjg4MCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMWU3M2U5ZDY2NTkzODg0MjUwODZhOTU2NjAyZjc3YTMyYTU4NGIxYTU1YzkzY2NhYWMwMGEzMDNlZWM2OTgwYiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTU3NTNlNzFiNGI3OTQ0MDBkMWQxYjJhYzJmODM5ZmZlMjZiYmQyMDIwYmJkZjZkMmU1YmExNWJlYjE3NTkyZiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiN2E0NWUyNzVhZjk2OWZhZjNhOWFkMzRlYzc1OTIxYWU2YzAwM2ZmYmY4ZmQ5M2MxNGZlMGI5ZDRjYjE5OTI0YyJ9"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_version_claims.py#L153-L168",
+          "version": "repo-lines-v1:sha256:4903e11a4527dcd5c573d4ed937d2b3bc9fa0b83dc3541c038c1b5ac62f3b084:eyJzZWxlY3RlZExpbmVDb3VudCI6MTYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3ZTliZTZmNzQ4MTdjZGE5Y2Q0YzNiMzFjZmIxNzIxOTlhMTUzYTVjMjQwNWE1YTc0MDQ1YjAxMWE4MWRiNzEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjJlOGQ3ZTc3M2I2MWNmOTE1MTY2ODA3NTk5ODNjMGJhMGVjMjU1NjhmYjdlNDg3NjNjYzI0ZmU1ODRjOTQ5YjYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImE1YzEyMmFhOGRhNzhkOWNiMzc4ZjA0ZGE3YjAyMDQ1ZTUzNjlmMDEwZDZjYjhlNzNkYzAwNTMwNTAxZmI2NWIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjI1MjE2OTllOGU4NjZmOTM0NWEwODgwY2U2MzE3MWNlNzY0NTIxNTRkNmUxMGE0ZTVlZWEwOTdjNWM1MDQ0OWYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_d45eadfa186d44c0a226e70f47156ecf",
+      "statement": "The read-only pull-request workflow selects changed MDX files beneath `src/` from the merge base and runs the registry checker only when such files exist; the scheduled workflow additionally performs an advisory full-tree sweep that reports without failing.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/check-version-claims.yml#L4-L58",
+          "version": "repo-lines-v1:sha256:50753052b5b7641ebbfd1d611a2370ab3aebe796e06283ae13a2597bffd029e0:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NmRjNDgxNDlmNWE4M2QxZWQ2ZGJiMzliYmM3ZTJiOTAyYWEzZDM0ZDZiZDVhZTRiMjkxYjY4ZGYwY2E3OWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNiZWY4NDRmYzQxMzIwOWIyMWQ2MDFjMWEwNDg1NGNmNmY4ODdjYzc0MzhkMmQ1YjYxMjAwMDY0ZDZhMDdkYjciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRjOWZjZGEwZjY3ODBmZTJlNzI3NDU3YmNkYzhjYTUwMWFiMjJjOWIyZmUyMTNhNjgxOTUwNzYyZDEwMGQwNjAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://.github/workflows/refresh-external-versions.yml#L113-L142",
+          "version": "repo-lines-v1:sha256:78e63b277e163bca785e0bc170704191778c44293624ce1bcf353b8fb1a6ac52:eyJzZWxlY3RlZExpbmVDb3VudCI6MzAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI2MjI4MDYzZjdjOGE5N2MzMzBlMzJiMDMyOWUwZjM1YWRhZTBiZDQ1OWUxZGIwY2I0N2NiMGMzNGIwM2QzYjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU3MmQzMWYyYTcxN2U5OTZhYTdlZWMwM2YwNzg0NTVmMjk4YmQwYTUxMjZjYTZiZjc2NTQ4MDU1ZDE4MzgyM2MiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjU5YzJkNTg0MTA4YzdlNzFkYTRiNGE3MDFiNTBmYTNhZDY1N2E5ZGQ0ZWYwMGY5MjEzZjMyZWZlMzY2MjI2YmMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0d8a073a43d74594be2bdb2ed8111645",
+      "statement": "The external-version registry supports `github_file` and `github_release` sources, requires named `version` capture groups, and validates pages, repository slugs, and upstream paths so configured writes stay inside `src/` and untrusted URL components are rejected.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_external_versions.py#L148-L173",
+          "version": "repo-lines-v1:sha256:e108f67f8151a54226166e3ee98f543b182b97ac59528774db137a914beddb4a:eyJzZWxlY3RlZExpbmVDb3VudCI6MjYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImRiYjc0NmNlZGIzMTQyZDg2YjY2OTk4OTg4MDVmYWFhM2I5ZTFiMTk4NzhhNzkzOTM5ZjYwMTIxOTRhOTZmNGUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY2ZjUwYmE5ZDE5MGVkMjdiNjFkNGE3ZmM4OWJmNDRiNGZkMWQzYTEzMzUzZGMzNjE4MWE5YmU3YzEzMGIxZDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRlYzM2NTIyZGQ4NGQzMGZlNzA5ZjJhYjQxMWE5MzA4NjJkNmQ5ZGE2MjY0ZjQzNjZiZTI1MDIxNzBiZDVhMWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImU5NTI3ZjY2OTE4NzYwNjc4OTU4N2MyNWY2MTM4ZWM4MTdiNmYwZmM4MjAzMjczY2QzMGU5M2UzZGI0MDhmMjQifQ"
+        },
+        {
+          "resource": "repo://scripts/check_external_versions.py#L41-L45",
+          "version": "repo-lines-v1:sha256:8c9a5883751ebe7a39ee0977d1bba3061040e66ff38af8222c0990967c9f8348:eyJzZWxlY3RlZExpbmVDb3VudCI6NSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODQ5NjA4MzIyYmYyYmQzODY0N2E4ZDQ3ODRjODZhZWZiZTJiNGQxMWFjNjEwOTE3YzI4ZWE3MDk1YWQzN2Q3NiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMzNhYWZlNzFlNzBlYTY4YTQwOWMwYWQwNmVmN2FiMjQzYTNiOTRmNGQ0NDFkMGI3OTA1MmU3YTIwYzUwYzdlNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiZjc4NjQ1MGMxN2E4YzJjYWNkODdiNjdhOTcwOTFmZWEwYzAxMWZiMjA1MmNmNjJhMzQ1NWU1NGRkOTA3MDcyYSIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZWViYWYyYmYwMTNmMWM5YTc3Zjk4NDQzNGJhNDYxZjEyMzFiYjgxNzBlYTE3NjA4YjFlNWM3ODQxMGFhOTRiMyJ9"
+        },
+        {
+          "resource": "repo://scripts/check_external_versions.py#L67-L134",
+          "version": "repo-lines-v1:sha256:5fa862ab45159cd17de148db25bb48f2a5b0649594ec4d20d31cf54d3eca784c:eyJzZWxlY3RlZExpbmVDb3VudCI6NjgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU0OTYxM2IyZGIxM2Q1ZmI0YzU2Njg5NWI1MTMzYzQ2M2Y0OTZhMDM3NzVhNDA4NjA4OTllODEwZGYzMTQ0NTUiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM0ZGRkZWY2NmE5NDJiNjVkNmY0MDBiYTJiZTE2ODlhNzY5ZWUyODQ5ZTI5ODkyNjIzNzNlZDI1OWQwNDRhYzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImY1OTNhOWExY2M5YTVlODI5OTZmNzRhOWVjNTIwNGUyNjAzMDRjMmQ0ODYxZWIyNzY5MjRlYjEwNTZmYTgxYzMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjcyZDE3YTc2NDA4ZDFiNjU4ZGM5YzM5YTgyODBjZjA1YjdmZDUyM2I3NGJhMDcwOTIxMmUzYzJmNGVmNDFmNTYifQ"
+        },
+        {
+          "resource": "repo://scripts/data/external_versions.yaml#L12-L21",
+          "version": "repo-lines-v1:sha256:0019e8164e99ee5fc79177285cd1835b8b5dbe14ef29f5963025b8ef4cd827ec:eyJzZWxlY3RlZExpbmVDb3VudCI6MTAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNhNDk5ZDhiODg3MDYwYmFhY2FkMDEyMGFlYjJiNmI2ZmZhNzA1NmI3MTMxZGZhMThhZGE4ZTM0OWExNDI3M2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImI3MDFhNTllZTUyZWI4ZGEwZDAwZTEyNDI4NzNhOTJjYTBkMGRhYTc4Yjk0OWFiODBhMzBhZjg3ZDQwZDUwZGIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjVkMjFlZjI4YWFmNDY5MTgzNjk3OGFmZmJjYTY0MTViN2MzZDg2NGI0MGEwYmE1YjI0NzlhMTFmYjdkYjg4NzIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQzM2RiMjMzOTAzYTQ0NzllZDY4NWNlNjI3YWJlNDg0MDM1NmY2YjI4Zjc4ZjlmZWUzMzZiMTE4ZTc1NjM4MjcifQ"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_external_versions.py#L93-L132",
+          "version": "repo-lines-v1:sha256:7e53c72ad25265af337a583e1df789019dcff0b83b0f11aebbae28084ea66b05:eyJzZWxlY3RlZExpbmVDb3VudCI6NDAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc5ZGFjY2IxNDQ4ZThkYTUxNzE1MjYyNGJkNGE1MGNlNTQxZTQ1ZGJiOTkzYzI5MGNlMjZjNGU2OWY0NTRhZjgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQ3ZmIyNjhjNDZhMjkyMTFkMWRmMzI3ZTcxOWFjODA5N2NiNzhkZTVkZmQ0ZTgyNzdhOTE4ZWM2ZTJlYmNjZTEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjM2M5NzAzNmNhMGRjNmNhNDM2NmE2NjI4NjFlMjA0MGMwYTZiNjE1NzM5MzU0YjE4MTI4OWEyYWZjYjA2NWQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImY2Mzc0NTk3ZWQ0MDU3NGQwMjk0OTI4NmE5MDFmMmM1OTgzNWRlYzc4NWY3NDliMGQxY2U2YzMwZjhiZmRjNzEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_8af4ff69e6374fe983deb9067aae81fc",
+      "statement": "External-version comparison requires the page pattern to match exactly once; in write mode it replaces only the captured version span, while normal mode fails on drift or unreadable entries and write mode reports them without failing so resolved updates can proceed.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/check_external_versions.py#L176-L187",
+          "version": "repo-lines-v1:sha256:d3ad076e9a72d9b611f4b0f8de4d608aa58080af1e43bd1f15f11b56d59cd9a5:eyJzZWxlY3RlZExpbmVDb3VudCI6MTIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc4NTlhMTFiNmM5MGRiZmVjMmEzOWFkYjc4NDgyZTQ5Y2UxNDRhZmVjMTY1YmU5NTNkMWM3MzU3ZTM4NGU5OWYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjcyMjVjMzI5YWVlNjQ5NGJmZjhiYzczNjQ3NjU4Njc5M2MwMGEwNjEzM2QyYzc2Y2FjMDExMDQzZDA0NmZiZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ3ZTQ0NWM0NDEwNGQ3NzA4N2I5NjM1MmIyYTYyOGVmZWE0Zjg2NmUyMjBkZGJjOGIxNTQyMTI1ZWUyNWFlN2IiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU0OGQ3NDgzZDA2MGYxNzIyZTI0NTM2ODg4MzM0MjU2YjU0OTBlOGJiZTg2OTgyMDY3NmNhOWVhZjM1MDljYzkifQ"
+        },
+        {
+          "resource": "repo://scripts/check_external_versions.py#L217-L269",
+          "version": "repo-lines-v1:sha256:e63161fbcd3ec61cbc5f4a3bd72a2153d0fca32815af0f9a5fd2ef1dbf601a92:eyJzZWxlY3RlZExpbmVDb3VudCI6NTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImE0NzNhMjA3YTNmMWNhNWJjNjNhMDI0ZjdhYTVhNGExOTI3OGViZGUyY2QyN2Q0N2VhM2YzMTk5Nzg5NTIxMzIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjYzNDBiYTNiNGM5MDRkMTlhOTYwMGJiZGI4ZDRmZmMyZmU3ODg3YjliYmNmZmI0YjM5MDEzNTNiM2MwZDA1ZTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImFlOWNlZjUxZDE4N2RmZTY0MzIwOWYzOWUyYTBkNzA4OWRjZjliNjViMTUyYmQwOWI3MWY1M2RiZDkzYzhlZTQiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjNkNDEzNDBjYzIzOWExNTljZTliNjAyMmU5ZjYzMjI4MzJlMmVhZDc2Y2FlOWU0NzU0ZDIxMGViOGZiNmQ1ZTgifQ"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_external_versions.py#L213-L246",
+          "version": "repo-lines-v1:sha256:293c2a1509cb31679f5e832940e360393b772883058855353836905886aac706:eyJzZWxlY3RlZExpbmVDb3VudCI6MzQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjNiYzc4MmQwYWM0ZDE2ZmUwNDIwMGI0NWZhOGUwMThkYjBjMTJmYWNkNjYyMmQ2ODUxNjZiZjVhMjAxMjdlZGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZhOTJhZmI5MjY3N2Q4OGY2ODJhNmY3ZTFkMmYxZTk5ZDVkNmQzN2ZiOWE2NWQxNDdjY2QyYjkwODhhM2YyMTgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImIzZGYyYWNmMDZlOGMzZjAzYzcxMzVjNmU4YWM1YTljYTU0MzJhYmUwNmE3NGFjYTBmZGQ5YTUzYTAwOGY5ODciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjU2ODBiMGYyOTI4YWMwZGJmM2RkNGEzMWQ1YzE2ZTkxOThhMjlhNjA4NmQzOWNmYjU3YzIwZjYwYmUzM2E2NWQifQ"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_external_versions.py#L69-L90",
+          "version": "repo-lines-v1:sha256:de4449d0313eb28818bf091214a609252e26cf66f41a5341e54c28a06ccc5c30:eyJzZWxlY3RlZExpbmVDb3VudCI6MjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg2NWI4ZWU5YjRlODUzMjEyMzliYTMwNDE0ZjFlNzczMWRjMGY3MjhhM2IxOGNiMmJkNjRlZThlYTRjOTEyYjYiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5YmJhMzAyNzRkNTcyMGMyMzNhYjdmNWFmODIyZjJkZDJjMDllMmY5YmVmNmNjMzE5NGUwOTdlNTg3NTlkMjgiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImYxOGRiNDViN2ZhYjYzZTMzYmRlOTE4YmEzN2E2OTE0YTYzMWNhMjczNjdjZjhjMjk1NDMwODQ2OGRmNzc0MWEiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImNjNjBhMTgxYjQ5NzJiNzI1MWI2ZjVkMWU2ZDA1MGFkYWM4YzliZTVkNjg1MWM2ZjlhMzlhMDFkOTM5ZTQ2NWUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_672fbed8d8eb432e9b5f91579c8472ad",
+      "statement": "The weekly/manual refresh workflow runs the external checker with `--write`, creates no PR for no `src/` diff, and otherwise reuses an open `chore/refresh-external-versions` PR or creates one; its PR body instructs reviewers to verify surrounding upstream requirements because only version digits were rewritten.",
+      "evidence": [
+        {
+          "resource": "repo://.github/workflows/refresh-external-versions.yml#L34-L111",
+          "version": "repo-lines-v1:sha256:0cae4187f623bae065439f32969b38c63fab959b1fe664cca9225f384a6cf54c:eyJzZWxlY3RlZExpbmVDb3VudCI6NzgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY2OTQ1ZmMxNDlkMDBhM2ViYmM0NzgzMGU4YTZiZTAxMzhkNmJkODU4OGU3YTFmODA5MGRlZjEyZmRkN2NiY2QiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQwODFhMTEwNDg0ZDdjNmFmMTY3YTU2M2RiYmI2YTcyNTJmYjA0MzEwNjU4NTk4YjIyOGVhZjZlMWU1NTdkY2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjllZDcyN2M0N2E4MTA2NmNjNTI0ZTc0NGQzOGFjMWE0NGQ2MzZmZjliMDk4NTBiOTE2ZmVkOGZhMDkzN2Q3NjkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjRjMjhhY2IyYTNjZWVmMjlmNzY4ZGRiOGE5ZThiM2M2YTFmYjlmZjAxMTZhNWNkMWZjNDVkZDM1MDJhNTRmZjAifQ"
+        },
+        {
+          "resource": "repo://.github/workflows/refresh-external-versions.yml#L4-L32",
+          "version": "repo-lines-v1:sha256:c0f7b6a08c2a1af90cb948f2349e02c6ef30c6f49f765f0a5ee314b89869f75d:eyJzZWxlY3RlZExpbmVDb3VudCI6MjksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImU5NmRjNDgxNDlmNWE4M2QxZWQ2ZGJiMzliYmM3ZTJiOTAyYWEzZDM0ZDZiZDVhZTRiMjkxYjY4ZGYwY2E3OWEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6ImQxZDQ0NmIwYTY4OGY0ZjZjMWQ2MDQwZTU0N2Q5ZjlmYmZlYTY1NDY1ZDUzMDc1M2JlNzZkNWViYzRjMGMwN2EiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImNjNjc0ZDI2MjNkYTk2ODBjZjNjMjMxN2U2MzQ4ZTQyZWZjNzI4NDNjMTU2M2EzOGE0YWI4NmM4ZjU1MGM5OGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjQ1MDlhZGQ5OWJiYThlOWNjZTdkNzBlMzViNjIwZDc3MTg1MDE4MmNiNDAyMTcwNzM2NDM4YTJjNmYxNzE0NjEifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_0bb914a62b3a45699546fee9caefba09",
+      "statement": "Focused unit tests protect registry parsing and routing, unsafe lookup handling, mirror-registry validity, unique matching, digit-only rewrite behavior, upstream-source extraction, and differing check/write failure semantics.",
+      "evidence": [
+        {
+          "resource": "repo://tests/unit_tests/test_check_external_versions.py#L1-L271",
+          "version": "repo-lines-v1:sha256:a00255444648d9101236e1699960fb558d5a78a34daa29588adc837934267bd6:eyJzZWxlY3RlZExpbmVDb3VudCI6MjcxLCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiI5ZTEwZjAwMjA5ZmFjNzc0YjQ5OTQxZmMxZjhhNmZhNzc1MzFjMWI2YTNkYzIxMWZmYjFlZDhkNjg2Yjc4MTk4IiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiJlODlhZTBiODg1MjA3ZWMwODk3ZDBmMTA5NjcxMWEzYWZlZWI1ZTc3ZjY0NDhiZjk0YzBjOWViMDE0MTQwZTA0IiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MCwicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MCwiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1In0"
+        },
+        {
+          "resource": "repo://tests/unit_tests/test_check_version_claims.py#L1-L217",
+          "version": "repo-lines-v1:sha256:4a87c576c3e2666fe6a7fbfcf69d734636bdd6a3df3891e6e330e778dcbf5264:eyJzZWxlY3RlZExpbmVDb3VudCI6MjE3LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJiNDk4ZjJlN2Y4NjJlZTFmOTkwNTU5NDI3NGFiMTAzMWM4MTFiMjIwODRiOGFkMTZjOWJiNjE5OWZjNTkyODBiIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiIzMGMxZjE4OGYxNDJlZDdhODI0NjgwYjIwNzE3MmM1NTE5YmM2MTRhNDhmZGE3Y2YxNjdlZGI4ZGRmNzk5NTZjIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MCwicHJlY2VkaW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MCwiZm9sbG93aW5nQ29udGV4dEhhc2giOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1In0"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.4.3",
+    "at": "2026-09-16T08:21:31.094Z"
+  }
+}

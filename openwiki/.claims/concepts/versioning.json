@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:fc98351092e4e96c1a11aca9846910b3819e3da94b70f412958a03ff828dd152",
+  "pageVersion": "sha256:cde720f4d33aca26f5d500643e9ac2796e5a6adb81dda7796716cbdcfc7f3ec0",
   "claims": [
     {
       "id": "claim_f4c12ebb668943dd8dc42a4000ad79ac",
@@ -43,8 +43,8 @@
           "version": "repo-lines-v1:sha256:e828ffdf4084a7b5cfd9f2dd49284401e5b144073268cf49d80ea70d04c53053:eyJzZWxlY3RlZExpbmVDb3VudCI6NTQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjljOWUxMjA3MmZkNjFjZmU5YzJhOGMyMjUwMGY3YThkODUyY2UwY2UzMmZlNWY3NjQ1NDQ5ODhiMWI4MjE5MDAiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY0MzgwYTI2NTdhMWUwYzVkMWNkOThmM2E0MzI4MTQxMWZjMjkyNWUzMmQwNGFjZGI5OTVmNGYxOWY1ZTJhNWUiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdkY2JkYzc2NzlhY2YwZjI0ZjMxYzg2NjY1MDQ3OGEyNjQwZmUxNzkwYTQzYTAxN2IxMjBiN2I4ZDY5ZDRjYzUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjhmZWU5YmY5NDdlYmMwOTk5ZTBlNTRiYTgyMWE0ZmY1NTlhZjMzZTc5ZGVlZjE1OTU1YjMwN2JkMjc3MTUzMmIifQ"
         },
         {
-          "resource": "repo://src/docs.json#L2692-L2817",
-          "version": "repo-lines-v1:sha256:374dc9d0f39b8c8697caa95e9d65db3723d093869bd6aca4d9d185dc802e06fe:eyJzZWxlY3RlZExpbmVDb3VudCI6MTI2LCJmaXJzdFNlbGVjdGVkTGluZUhhc2giOiJjY2NlNTg2YjI1ZDZiZjMxMjJiZmM1NGFhMzE1ZTQ0ZGYwNTI0Y2ZjM2JiNWZkMzk0Mzg3YzJkY2UxNjNjNTUzIiwibGFzdFNlbGVjdGVkTGluZUhhc2giOiI3YzcyNjdkMDY3M2UzOGM2MDBmMTRhMzc0Mzk2NzBlZjUzZDRmNjk0ZjliYzBhOGI5MDhmOTI3MjI3MjJiYWUyIiwicHJlY2VkaW5nQ29udGV4dExpbmVDb3VudCI6MywicHJlY2VkaW5nQ29udGV4dEhhc2giOiJjODNhODRjYTcyMTQxYmJiMTE1NjBmNzc4MWY3M2E1OTU2N2U2NDNkZGY3MjJlYjQ0YjVlNGUxMDE1MWY4NTM1IiwiZm9sbG93aW5nQ29udGV4dExpbmVDb3VudCI6MywiZm9sbG93aW5nQ29udGV4dEhhc2giOiI4Mzk0ZDE0MGRiMTNmMTlkYzgyOWEyNGQyZjdmMjIzN2VhOTExNGExMzg0MWUyMmI1MjFiZjE0NDgyYzVlY2I5In0"
+          "resource": "repo://src/docs.json#L2680-L2755",
+          "version": "repo-lines-v1:sha256:8521580ddde431cb1cfcefc5a9d98ce8d9bf6e8615b8410f5859e362d451c4cd:eyJzZWxlY3RlZExpbmVDb3VudCI6NzYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY5Y2E4OTFiZmY3YWMxZjdjZWFhZTQwZWYwNTEwNjZiZTllZmU0N2I0ZTQyODFlODZjMzE5YmUyYzU1ZWJjZTQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFmMGNkYjk3MmE3YmZiN2VkMjQ2ZjlmZjY3MjM4NWU1NWY0OTY4ZmMxMTA0M2RjNWI2ODRkNTFkZmEzMWRiY2IiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjNmYThkNzFmNDQ4ZmY4MGVmYjAxNDZkNDQ1NmRmNDRmYmVlMGVlMTEyNDA2ZDFlMTY2NTA1OWZhZTY3N2Q3YzkiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjUyZTBmYTM4M2M2Y2Y3MzMyMGIyZTQ1YTI4NmVhMWFiMWYwZDFhNGNjNDdlMzk4Njg0YzQ1NjA1YmI2NzUyMmIifQ"
         }
       ]
     },
@@ -136,7 +136,7 @@
       "evidence": [
         {
           "resource": "repo://src/docs.json",
-          "version": "repo-file-v1:sha256:77f6210fb3a11fae742863d2fcd87f87f9cba221096d47f5470672758d8304d5"
+          "version": "repo-file-v1:sha256:485fe3613ad67e71629f31ce5130522093fd715efae555d1b21ad9c7e7530fc4"
         }
       ]
     },
@@ -146,7 +146,7 @@
       "evidence": [
         {
           "resource": "repo://src/docs.json",
-          "version": "repo-file-v1:sha256:77f6210fb3a11fae742863d2fcd87f87f9cba221096d47f5470672758d8304d5"
+          "version": "repo-file-v1:sha256:485fe3613ad67e71629f31ce5130522093fd715efae555d1b21ad9c7e7530fc4"
         }
       ]
     },
@@ -187,10 +187,30 @@
           "version": "repo-lines-v1:sha256:30137b8ca93dba0319577fcf28adf46ae02435e42ea8a9f23ace3915c6500d21:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM5ZWRjNmNlMWEzOTI3ZjQ3ZjI0MTVjNDZkZjg2MzlkNDJiMzk3OTJmMDVmZmVjMGM1Y2QzNDIyNzc5ZmYzN2IiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk3OWI3MTI4ZmQ1NzVkZGZjYTlkZTM1NzIxZTEzNmM0YTU1NWQzMTY0ZmE2YTZkMTIxYTNmMDBkOGNiODc5MzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjQ4MjI1OWRkMjVjYTQzYWMxMTcwYTA2MzdiNzQ5MjVkNzYwNWEyNzQyZmQxZDhkNDU0NDE3NTA3YTBmMzdjMGIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjgzMmIxYmFjZTZmNzZlZWI4OTZkNjczZWM2NDU3MDc4ZjZlZThmNjcyMzI2ZjcwZGI2NmY3ZDQ4ZjlkMDdlYWQifQ"
         }
       ]
+    },
+    {
+      "id": "claim_53c4eeb8f4c84d54bbf83d8555c18c51",
+      "statement": "Ordinary LangSmith files are emitted once under /build/langsmith/ with the python target, while files classified as Managed Deep Agents are excluded from that pass.",
+      "evidence": [
+        {
+          "resource": "repo://pipeline/core/builder.py#L909-L959",
+          "version": "repo-lines-v1:sha256:216fc3c62249101d1df87a9bd510b295bd79502a1507faf55c32b7aaa11f716b:eyJzZWxlY3RlZExpbmVDb3VudCI6NTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjY3YzJiOTQ4NDM2Y2Q1NDQxNzhhZDA0Y2QyYTgxMGZhNmY3NjgyMmZhNzZmNWY4YzkzZjZhNDVkMDc3ZWUxZDgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUxMDM0ODFjNTdkMGYwZGMwZjc2Y2QyY2M4YjM2MDRjNGU4Mjk2ZGE0MTIyYWRkMTllODE3NDVkYzdlMzMxYTYiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImMzMjg5Y2VkYjM1MjAyOTMxMjYxOWVlNTUwMjRkNGFlNDBjMGNhMDUyNjAzZDdhZjZmN2EyZGU1ZTI0N2YxODAiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMwYzliNWU0MDdmMDg5NjE2NzdhNzFmZGY2MTgyNGZiNDVlZjkxMWYyYmYzNzVlMjkzYmI2MTUzMTJmMmM0MjkifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_90370a9777f14a4f8719c56f51bc14e7",
+      "statement": "When the builder processes a Markdown source with a .md extension, it writes the emitted artifact with an .mdx extension.",
+      "evidence": [
+        {
+          "resource": "repo://pipeline/core/builder.py#L361-L396",
+          "version": "repo-lines-v1:sha256:c1e4052aef48a1c074befd55f57c835dd6cbbcc6e3eb502f6a439fbbf780a0cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MzYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ0MWRlNWZlMDEzNTMzMDQwMTcwNWIwMjdlYzk3ZDU1YjliOTkwNDdkY2QxY2U4ZjVlOGY1MmFmNmMwZDc2MDQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjM1NDZmODgzMTViNjVjYzMyMTljYzc0MjczODcwNDkzNzFkZTZkZjljZWE2ZGEyYTllM2NiYzM1NTI1MmNmYmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdkOGY2OWM5ZjRlNjM0ZDZmMTk0ZDhmMzkyMWNhNDZlNjIzN2U0ZGZmZTIxNWVmMzY4YWY0MjZiYjBmN2YyZjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjMzZDZmMTEwODU5OGFlNDZiNGE4NjU1NDRhOGI2OWJlMjc2M2UwM2U0ZGI1M2ExY2NmZjBkMTYxN2FmMWZkMjQifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.4.3",
-    "at": "2026-09-15T08:21:56.110Z"
+    "at": "2026-09-16T08:21:31.094Z"
   }
 }

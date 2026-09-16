@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:7ea30817ae80ec498604d776b12305969283b47dbe9161712d9a37235acd22d7",
+  "pageVersion": "sha256:4feb933aa6973871675a3fa6f94388ee6ac96f9d72f960044d3a037c0b5196ae",
   "claims": [
     {
       "id": "claim_ce02287599534e61a2585157859a8d87",
@@ -257,10 +257,64 @@
           "version": "repo-lines-v1:sha256:d814a1fb9e7fa23bf2b949332fd5d915e760097e4dd1a36c47aa4f8dd92111f0:eyJzZWxlY3RlZExpbmVDb3VudCI6NTcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjE0OTNiNmQ1OTI4NGZjNmE0YzkyMTJjYzVjNjBlOWY5Y2Y0MDAxZWY4MWI4YmQyZTQyYzA1YTZjYjc0NzViNzciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFlN2UwZWY4MTZlZGZjYzZmNjE2NDY2ZTM4YzZmYmNlNmU4YjU5ODQ4MDYwY2JjOGJmMzIyOWJiYzlhNTYwNzAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
         }
       ]
+    },
+    {
+      "id": "claim_ead2c59ceb5d43a7adfc2770080177f0",
+      "statement": "The MCP structured-content Python sample has one visible `mcp-structured-content-py` region that adapts an MCP server, lists tools, invokes an agent, and reads structured content only from non-null `ToolMessage.artifact` values.",
+      "evidence": [
+        {
+          "resource": "repo://src/code-samples/langchain/mcp-structured-content.py#L1-L25",
+          "version": "repo-lines-v1:sha256:9d89ac54ae1b961d055ea3f6c834f2b20349edde12083b4d0f41445b97207c6f:eyJzZWxlY3RlZExpbmVDb3VudCI6MjUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmZTliZTg3OTUwZWRhNDY2YjU1NDU2YzgyNzVhMmE3ODIwNmM5ZWM1OGIwMGEzNjQwZmIwMzgyYmE5YjdkY2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjUyYWQ5OWJmNzE0ZWI4ZjY1ZGYzMjExNTNhYTM5M2M1MmQ2YjQ5NjNmMzRmMTJkYTI4ZjYzNGZkMTI0YmRhMDEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjAzNTU3NzQ4NTAyZWRiNzNlMGU2ODhmYzNhZTlkZDVlMmI3N2FlNTk1ZjBlYmFiYTE3ZTFhN2RkODU2NWEyYzQifQ"
+        },
+        {
+          "resource": "repo://src/snippets/code-samples/mcp-structured-content-py.mdx#L1-L23",
+          "version": "repo-lines-v1:sha256:4c0514ebf018baa3c0b69412da227e9ba712554b2b4cd60edda80288e7e19319:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlM2I0ZDVhZjU0ZWUxZjA5ZWM5OWNhZTRmMzg5NWVhYjI4MTkwY2RjZTAxNzdlNTY1ZmEwNzU2NzhjNzA4ODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_1d332882f38b406e937c5dbe69f725b8",
+      "statement": "The MCP structured-content sample keeps its local FastMCP server and execution assertions in a remove block, including an assertion that the returned artifact contains Alice's structured-content name; those harness lines are absent from the generated MDX.",
+      "evidence": [
+        {
+          "resource": "repo://src/code-samples/langchain/mcp-structured-content.py#L28-L64",
+          "version": "repo-lines-v1:sha256:86a37030010ed293c8c804aa6ae7f0e038a2d484ef277cb403284ee2fc66bd5e:eyJzZWxlY3RlZExpbmVDb3VudCI6MzcsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImIxOGY5YTYxMWUzYWRjM2JhODhkMGQ2MjJjMTY2MzViYjkyYjg1ZjcyYWI2NmI2MzU2NTFjMTgwNGVmZjI1OTgiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2MjBhYTZjOGI5MmRmYTcxODEwNTRkN2ZlOTllYzA4OWFmMmExYjdkYmI5YmEzODViMWNkOGM0NzI4NWQ0ZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6Ijc4M2I3ZDlhZjZhNTc3ZWQzZTI4NjdkZWQ2ZmNjYmU1YmQ2YjYxMWJmZDA0Zjk4ZGUyNDA2MjFkYzY3Yjc1MjciLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://src/snippets/code-samples/mcp-structured-content-py.mdx#L1-L23",
+          "version": "repo-lines-v1:sha256:4c0514ebf018baa3c0b69412da227e9ba712554b2b4cd60edda80288e7e19319:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlM2I0ZDVhZjU0ZWUxZjA5ZWM5OWNhZTRmMzg5NWVhYjI4MTkwY2RjZTAxNzdlNTY1ZmEwNzU2NzhjNzA4ODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_b25aa69f45464d6fb17162dbe7e427da",
+      "statement": "`mcp-structured-content-py` is structurally eligible for trace collection because its source has exactly one snippet marker, but it has no trace-manifest entry and its generated MDX has no public trace card.",
+      "evidence": [
+        {
+          "resource": "repo://scripts/code_sample_tracing.py#L185-L246",
+          "version": "repo-lines-v1:sha256:6dc273890c2856072aec20637ca87c1c4a32cab69a3d54cee3ae2a91a5bafbe1:eyJzZWxlY3RlZExpbmVDb3VudCI6NjIsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjU0ZTc1YTZkNTFlZTAwNWM1NzE0OTY4NTFmM2M0NWJkZWU3YzcxOGQzZjQ2NmJiNmU2N2EzNThmNDRjMzJkMGMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijg3NDgxOTI0YjNhZGJhNzIxMDgxMzAxYTUzNzdmYTE4OTczMmU4NWVkZmY3OWQ3NGM3ZjkxZWNhYTllZjc3MDciLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRiMzZiZDMyY2MzMmIwZGFiYjMyMWFkM2MwMmNhYzhmZTRiZmM4N2MyMDAzNzFjZGU5ZDQxOWExNzIyNmMwM2MiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjoxLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImFiMjc5MDQyMWM5ODFhMWVhNjVlMjFiNmIwYTc5OWZkM2I2ZjIxZDYzMTUyZjg0YjRmYTRlY2MwNTRhZDRhODEifQ"
+        },
+        {
+          "resource": "repo://scripts/code_sample_tracing.py#L85-L95",
+          "version": "repo-lines-v1:sha256:27fe513d201df3f2e417df07d36d8045054a77a5b2ed9b39c9bb49e4c3ff7405:eyJzZWxlY3RlZExpbmVDb3VudCI6MTEsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMxOGVkNTI5YmExNTIwMWZlNTc4NTJmNzM2OTI1NTA4YjQ5YzEzNzAwMDVlMjA1YmJlY2Y5M2MwMjg5Y2JiZWIiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjMwYzFmMTg4ZjE0MmVkN2E4MjQ2ODBiMjA3MTcyYzU1MTliYzYxNGE0OGZkYTdjZjE2N2VkYjhkZGY3OTk1NmMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImU5YTZkZjJjNzA1MDgzNTAwMmRjYmJjNzhhMzFiNjEyMjJmYjVlMjFjOWM2MDQ5ZGMwYzFhYmNmMjRiNzRkOTIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM4MjhjMDM3OTljODVhZmMzODY0OTZmYzRlNmJiZDI2MzA4ZjFhMGIxMmRmMTRhYmQ2NGE3ZDIzODkzN2QxYjIifQ"
+        },
+        {
+          "resource": "repo://src/code-samples/langchain/mcp-structured-content.py#L1-L64",
+          "version": "repo-lines-v1:sha256:69236a2806271114cfd3a432cd67cdf05eaaa03597d895fc7529355ab6a1f84c:eyJzZWxlY3RlZExpbmVDb3VudCI6NjQsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImNmZTliZTg3OTUwZWRhNDY2YjU1NDU2YzgyNzVhMmE3ODIwNmM5ZWM1OGIwMGEzNjQwZmIwMzgyYmE5YjdkY2MiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijk2MjBhYTZjOGI5MmRmYTcxODEwNTRkN2ZlOTllYzA4OWFmMmExYjdkYmI5YmEzODViMWNkOGM0NzI4NWQ0ZWMiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        },
+        {
+          "resource": "repo://src/code-samples/trace-links.json",
+          "version": "repo-file-v1:sha256:12baab2155d16c0002abf517325cea1a0679000bf1ae5122feeb3580e1b37a23"
+        },
+        {
+          "resource": "repo://src/snippets/code-samples/mcp-structured-content-py.mdx#L1-L23",
+          "version": "repo-lines-v1:sha256:4c0514ebf018baa3c0b69412da227e9ba712554b2b4cd60edda80288e7e19319:eyJzZWxlY3RlZExpbmVDb3VudCI6MjMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjdlM2I0ZDVhZjU0ZWUxZjA5ZWM5OWNhZTRmMzg5NWVhYjI4MTkwY2RjZTAxNzdlNTY1ZmEwNzU2NzhjNzA4ODciLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjowLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
     }
   ],
   "verification": {
     "by": "openwiki/0.4.3",
-    "at": "2026-09-15T08:21:56.110Z"
+    "at": "2026-09-16T08:21:31.094Z"
   }
 }
