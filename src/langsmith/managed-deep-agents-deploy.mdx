@@ -145,6 +145,38 @@ When `--no-wait` is set, schedule reconciliation is skipped for that deploy invo
 
 On success, the CLI prints the LangSmith deployment dashboard URL. For the full deploy step list, see the [CLI reference](/langsmith/managed-deep-agents-cli#deploy-projects).
 
+:::python
+## Set the Python version
+
+<Note>
+Configuring the Python version requires `managed-deepagents>=0.8.0`.
+</Note>
+
+MDA builds the deployment image on Python 3.11, 3.12, 3.13, or 3.14. Select the target in `pyproject.toml`:
+
+```toml pyproject.toml
+[project]
+requires-python = ">=3.11"
+
+[tool.mda]
+python-version = "3.14"
+```
+
+`python-version` takes a quoted `major.minor` string, without a patch version or image suffix. MDA writes that value to `python_version` in the generated `langgraph.json` and selects the matching [Agent Server](/langsmith/agent-server-overview) image. `requires-python` stays the project's own compatibility requirement. `mda init` scaffolds both fields.
+
+Without `python-version`, MDA selects the newest supported version that `requires-python` allows, or 3.14 when the project declares no `requires-python`. Set `python-version` explicitly to stay on the same minor version when MDA adds support for a newer Python.
+
+To override the project setting for a single build, set `MDA_PYTHON_VERSION`:
+
+```bash
+MDA_PYTHON_VERSION=3.12 uv run mda deploy
+```
+
+MDA validates the selected target against `requires-python` and fails the build when the two contradict, because `pip install -e .` would fail in the built image. When compatibility depends on the image's exact patch version, which the image tag does not pin, MDA prints a warning and continues. The dependency install then checks the actual interpreter.
+
+This setting controls the deployment image. Local build processing, `mda dev`, Harbor task images, and [execution sandboxes](/langsmith/managed-deep-agents-sandboxes) select their interpreters separately.
+:::
+
 ## Secrets and environment files
 
 `mda deploy` reads project `.env` values before shell environment variables. Use `.env` for the LangSmith API key that authenticates the deploy and for runtime secrets the hosted deployment needs:
